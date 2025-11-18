@@ -482,7 +482,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/CAN/CAN.N": [
+        "CAN"
+      ],
+      "/CAN/CAN.P": [
+        "CAN"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -624,6 +631,38 @@
     [
       "b652b05a-4e3d-4ad1-b032-18886abe7d45",
       "Root"
+    ],
+    [
+      "f80c68dd-db57-45c5-ad39-097fddab18f6",
+      "Control"
+    ],
+    [
+      "99c14907-23ad-43ad-9631-070bcb6380e5",
+      "Power"
+    ],
+    [
+      "6d9818bf-ea95-4e36-b836-5e40b7d255e9",
+      "Analog inputs"
+    ],
+    [
+      "4041f08e-0021-4486-b46d-04dee0dbde38",
+      "Analog outputs"
+    ],
+    [
+      "53668965-aba8-491b-bbd2-5e02dffffd80",
+      "Digital_Inputs"
+    ],
+    [
+      "9a7eac17-bde7-4be8-89e7-ead0dca9d95f",
+      "Digital outputs"
+    ],
+    [
+      "e88a87f1-4fac-4a15-8fc8-a85c85ae592e",
+      "CAN"
+    ],
+    [
+      "d6ce6b59-68d9-41b9-bbd5-9190176b2b5d",
+      "UART"
     ]
   ],
   "text_variables": {

@@ -5,10 +5,347 @@
 	(uuid "b652b05a-4e3d-4ad1-b032-18886abe7d45")
 	(paper "A4")
 	(title_block
+		(title "PLC ON STM")
 		(rev "${REVISION}")
 		(company "Author: Grzegorz Potocki")
 	)
 	(lib_symbols)
+	(sheet
+		(at 38.1 69.85)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4041f08e-0021-4486-b46d-04dee0dbde38")
+		(property "Sheetname" "Analog outputs"
+			(at 38.1 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_outputs.kicad_sch"
+			(at 38.1 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 19.05)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53668965-aba8-491b-bbd2-5e02dffffd80")
+		(property "Sheetname" "Digital_Inputs"
+			(at 190.5 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_inputs.kicad_sch"
+			(at 190.5 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 19.05)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d9818bf-ea95-4e36-b836-5e40b7d255e9")
+		(property "Sheetname" "Analog inputs"
+			(at 38.1 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_inputs.kicad_sch"
+			(at 38.1 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 107.95)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99c14907-23ad-43ad-9631-070bcb6380e5")
+		(property "Sheetname" "Power"
+			(at 114.3 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 114.3 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 69.85)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a7eac17-bde7-4be8-89e7-ead0dca9d95f")
+		(property "Sheetname" "Digital outputs"
+			(at 190.5 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_outputs.kicad_sch"
+			(at 190.5 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 120.65)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6ce6b59-68d9-41b9-bbd5-9190176b2b5d")
+		(property "Sheetname" "UART"
+			(at 38.1 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart.kicad_sch"
+			(at 38.1 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 120.65)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e88a87f1-4fac-4a15-8fc8-a85c85ae592e")
+		(property "Sheetname" "CAN"
+			(at 190.5 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 190.5 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 57.15)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f80c68dd-db57-45c5-ad39-097fddab18f6")
+		(property "Sheetname" "Control"
+			(at 114.3 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 114.3 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32-plc"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

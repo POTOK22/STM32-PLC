@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "297adf89-73be-4a83-8457-c8105726e3bf")
+	(paper "A4")
+	(title_block
+		(company "Author: Grzegorz Potocki")
+	)
+	(lib_symbols)
+)
