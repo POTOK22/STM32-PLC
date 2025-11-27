@@ -320,7 +320,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f80c68dd-db57-45c5-ad39-097fddab18f6")
-		(property "Sheetname" "Control"
+		(property "Sheetname" "Connectors"
 			(at 114.3 56.4384 0)
 			(effects
 				(font
@@ -329,7 +329,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "control.kicad_sch"
+		(property "Sheetfile" "connectors.kicad_sch"
 			(at 114.3 95.8346 0)
 			(effects
 				(font

@@ -5,6 +5,7 @@
 	(uuid "d129715c-b6b2-445c-92bc-76fe3d4407d0")
 	(paper "A4")
 	(title_block
+		(title "PLC ON STM")
 		(company "Author: Grzegorz Potocki")
 	)
 	(lib_symbols)
