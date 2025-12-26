@@ -2597,7 +2597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ccddc1f-78af-4602-8071-eec7410caa48")
-		(property "Reference" "R7"
+		(property "Reference" "R84"
 			(at 128.778 119.38 90)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "R7")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d32dc3-93d2-4552-bd63-7fcb6b44eb4d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR043"
 			(at 184.15 119.38 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR014")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2836,7 +2836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16bd8ead-280c-4a2d-badf-1448341d131f")
-		(property "Reference" "C18"
+		(property "Reference" "C35"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C18")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2925,7 +2925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f980d69-1cf5-4fc6-b096-d446b40e8bf6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR044"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -2975,7 +2975,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR015")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2991,7 +2991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4475042b-1a70-4179-b6f1-111241bb27ca")
-		(property "Reference" "C22"
+		(property "Reference" "C39"
 			(at 195.5863 80.01 90)
 			(effects
 				(font
@@ -3061,7 +3061,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C22")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3076,7 +3076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b4af4a0-dd67-4f44-819f-e59a423b223e")
-		(property "Reference" "C17"
+		(property "Reference" "C34"
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C17")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5386ea18-7f5e-4a9a-9cce-85c3f5b0b622")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR040"
 			(at 157.48 137.16 0)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR011")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61687641-671d-4e01-9750-ce877da0fda4")
-		(property "Reference" "C20"
+		(property "Reference" "C37"
 			(at 161.2837 80.01 90)
 			(effects
 				(font
@@ -3471,7 +3471,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C20")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69001827-fdf0-486d-8d01-5fc149f18317")
-		(property "Reference" "C15"
+		(property "Reference" "C32"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -3558,7 +3558,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C15")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3574,7 +3574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c2407c-dc23-449d-8952-8be40d37690a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR042"
 			(at 180.34 63.5 0)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR013")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f57719b-5662-4a3d-8d71-e6e63a7eba35")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR039"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR010")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d32a24c-944c-4630-a383-fb6713c55e7e")
-		(property "Reference" "C21"
+		(property "Reference" "C38"
 			(at 195.5863 55.88 90)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C21")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e2e6b0-cc94-4008-867f-3ca97ad7b032")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR041"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -3844,7 +3844,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "#PWR012")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6d24b61-8f45-41b4-b3ed-760ffccde1d7")
-		(property "Reference" "U2"
+		(property "Reference" "U22"
 			(at 163.83 127 0)
 			(effects
 				(font
@@ -4073,7 +4073,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "U2")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d73d142c-b032-4828-947c-de558e7426bc")
-		(property "Reference" "C16"
+		(property "Reference" "C33"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C16")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4241,7 +4241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee958ede-958c-4964-b229-851869dba40b")
-		(property "Reference" "C19"
+		(property "Reference" "C36"
 			(at 161.2963 55.88 90)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 		(instances
 			(project "stm32-plc"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e88a87f1-4fac-4a15-8fc8-a85c85ae592e"
-					(reference "C19")
+					(reference "C36")
 					(unit 1)
 				)
 			)
