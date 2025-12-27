@@ -1951,12 +1951,12 @@
 		(uuid "bd21194f-450b-4f97-a4e6-b92048a9b46d")
 	)
 	(no_connect
-		(at 154.94 144.78)
+		(at 148.59 144.78)
 		(uuid "5e08c943-0847-4ebb-9370-c647eba1895f")
 	)
 	(wire
 		(pts
-			(xy 157.48 147.32) (xy 157.48 149.86)
+			(xy 151.13 147.32) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 147.32) (xy 157.48 147.32)
+			(xy 148.59 147.32) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1976,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 157.48 142.24)
+			(xy 151.13 139.7) (xy 151.13 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 142.24) (xy 157.48 142.24)
+			(xy 148.59 142.24) (xy 151.13 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +1996,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 157.48 139.7 0)
+		(at 151.13 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2005,7 +2005,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be3ff40-c2b7-4abc-9860-f125cef8c532")
 		(property "Reference" "#PWR011"
-			(at 157.48 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 157.48 134.62 0)
+			(at 151.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 139.7 0)
+			(at 151.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 139.7 0)
+			(at 151.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 157.48 139.7 0)
+			(at 151.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 149.86 144.78 180)
+		(at 143.51 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2307,7 +2307,7 @@
 		(fields_autoplaced yes)
 		(uuid "4acb9283-a487-4880-a5f0-0bf69629ef39")
 		(property "Reference" "J2"
-			(at 149.86 135.89 0)
+			(at 143.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 149.86 138.43 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" "PLC_STM_Power:TBC05031GG"
-			(at 149.86 144.78 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 144.78 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 144.78 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Mouser Part Number" "TBC05-03-1-G-G"
-			(at 149.86 144.78 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/GCT/TBC05-03-1-G-G?qs=sGAEpiMZZMvPvGwLNS671%252B7aWYNAXBhX8MwbRir2ZMNiRgmezEZr7A%3D%3D"
-			(at 149.86 144.78 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2387,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 149.86 0)
+		(at 151.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2396,7 +2396,7 @@
 		(fields_autoplaced yes)
 		(uuid "5339869e-05f6-48d3-a132-fc5c817f38dd")
 		(property "Reference" "#PWR012"
-			(at 157.48 156.21 0)
+			(at 151.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 154.94 0)
+			(at 151.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 149.86 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 149.86 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 149.86 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

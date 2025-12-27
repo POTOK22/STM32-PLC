@@ -1,0 +1,8 @@
+# Ignored cache files
+fp-info-cache
+
+# Ignored local preferences files
+*.kicad_prl
+
+# Ignored directories
+**/*backups*/
