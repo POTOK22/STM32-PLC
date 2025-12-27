@@ -1,0 +1,137 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b652b05a-4e3d-4ad1-b032-18886abe7d45")
+	(paper "A4")
+	(title_block
+		(title "PLC on STM - Power Shield")
+		(date "2025-12-26")
+		(rev "${REVISION}")
+		(company "Author: Grzegorz Potocki")
+	)
+	(lib_symbols)
+	(text "PLC ON STM - POWER"
+		(exclude_from_sim no)
+		(at 12.7 24.13 0)
+		(effects
+			(font
+				(size 12 12)
+				(thickness 4.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2aad4415-7778-417b-9ea8-a680733e6546")
+	)
+	(sheet
+		(at 88.9 76.2)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41e43fed-5c1d-4ba4-a553-b31d87724d09")
+		(property "Sheetname" "power_section"
+			(at 88.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_section.kicad_sch"
+			(at 88.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 76.2)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f909b518-27ab-4d12-b500-a1759b02a86c")
+		(property "Sheetname" "connectors"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 152.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "putm_frame.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAvCY0UAObcWyEA1TZqxSYpSnAbOsWnapwROGKZeeE9KM64wmSW/n9CwQRSAEsAVAD4Oxyb
+				J+1rOdkbNb9xsXDRanbnQyvya8XCVdH2ki1/5E8AAAIk6L2cVUZpqIzfhq4RSaozfi/7dQ4BEChg
+				lFKrztoX2zJ7iAAIlB+RJvRA+yEEXWKSolT/yP/7a1pX7XmRRhm89j0nPWe/GYMv9uxJfUAsfu3i
+				22/vfIcXhLPXVP/1ccRg7drh9YPVk9L+7H1JUe2jdx/0POJ//JEB+OurcpitYkNewTCqH4nK6mxS
+				yYTrKhtGw9AW3MM0uKqrJ6VZhegMO20WjaHZLl3HmQat8PcYOWdS9r8ONmljvwR5rtpUI9Wr5/d9
+				k1qAwF+8oX3VgQKiXplVrUPNLIqo06IWyRYhXY8c8WLWjESjRCYLrEJYts3RYRitDhFNskG4hmgb
+				h2rSDWLhLOJbS6Wh7XfvdALDScCh+r0x401nJz1KZaNolJLtQjGAgKAhPaUYmpIUJClkmAOARKTm
+				qDqKaBj8cOU0CMQEDCAPXptjKGfrooqHvkhFQiG28qvJM4YHQAhI789Pe6CM7SBne5Vtvvq9wkcX
+				nj05P3mYi4NXPJ/uUrLUtQk2w76hQgx0MktjeoBh+lxTD5IGHQ8SF9Ga45urwV0FAriFfagEhtx5
+				PGHBX1CBeRAr8grmewQSn3TJNDZp6SKSo3klm1fsFkaN6NERStGPAAJ0Kkf9E0NKGKCXmflfrqck
+				pBHEJ8GdTlHn24ljbxPc+WIMW/jPAgcgyPKJHrUDci3M7EQ4CER7hddwyKWAwM1vyOwMDboKEy8K
+				OKN2seQXk/bQSa/Qvsl6kQcUuziiY7xUSu4KhT3mI977rkPExkevAg==|
+			)
+			(checksum "D28CC2D8CCEF14F2FD87317FD6BA98A1")
+		)
+	)
+)
