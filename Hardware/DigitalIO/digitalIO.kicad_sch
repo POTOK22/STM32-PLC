@@ -25,7 +25,7 @@
 		(uuid "cec71073-0df9-405e-812b-e61d9091f6a5")
 	)
 	(sheet
-		(at 101.6 88.9)
+		(at 127 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41,7 +41,7 @@
 		)
 		(uuid "66aaa0ed-28c6-43db-9132-49c7d324c89b")
 		(property "Sheetname" "digital_output"
-			(at 101.6 88.1884 0)
+			(at 127 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Sheetfile" "digital_output.kicad_sch"
-			(at 101.6 127.5846 0)
+			(at 127 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +67,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 139.7)
+		(at 190.5 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -83,7 +83,7 @@
 		)
 		(uuid "a3324828-c59a-446c-84be-8caf0e60ff6d")
 		(property "Sheetname" "connectors"
-			(at 101.6 138.9884 0)
+			(at 190.5 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +92,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 101.6 178.3846 0)
+			(at 190.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 38.1)
+		(at 63.5 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -125,7 +125,7 @@
 		)
 		(uuid "ad631919-bc4e-4630-a7dd-140d6666075a")
 		(property "Sheetname" "digital_input"
-			(at 101.6 37.3884 0)
+			(at 63.5 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "digital_input.kicad_sch"
-			(at 101.6 76.7846 0)
+			(at 63.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

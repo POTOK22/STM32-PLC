@@ -1,0 +1,23 @@
+* Z:\home\grzegorz\Studia\DiplomaThesis\STM32-PLC\Documentation\LTspiceSims\DigitalInSim\digital_input.asc
+V1 IN 0 PULSE(0 24 10ms 0.5ms 0.5ms 5ms 10ms)
+M1 IN N005 N002 N002 Si7137DP
+R1 N005 0 47k
+D1 N005 N002 PMEG3005AEA
+R2 N003 N002 1k
+V2 N001 0 3.3
+C1 N003 0 1n
+R3 N001 N004 1k
+R4 N006 0 270k
+C2 N006 0 470p
+XU1 N003 0 N004 OUT N006 CNY17 Igain=.724m
+R5 OUT N007 47k
+D2 N007 0 NSCW100
+.model D D
+.lib C:\users\grzegorz\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\grzegorz\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 100ms startup
+.lib CNY17.sub
+.backanno
+.end
