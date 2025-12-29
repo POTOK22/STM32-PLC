@@ -1618,7 +1618,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ15CA"
+		(symbol "Diode:SMAJ10CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1637,7 +1637,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ15CA"
+			(property "Value" "SMAJ10CA"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1663,7 +1663,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1690,7 +1690,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ15CA_0_1"
+			(symbol "SMAJ10CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -1740,7 +1740,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ15CA_1_1"
+			(symbol "SMAJ10CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3304,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b445fc-413f-41ac-94ef-a53bf37fe365")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -3355,7 +3355,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3372,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3211697e-2bee-4585-bf99-334d2fff19b4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLC_STM:1725656"
+		(property "Footprint" ""
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/507/9/phoenix_contact_1725656_en.pdf"
+		(property "Datasheet" "~"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -3474,24 +3474,6 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725656"
-			(at 67.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Phoenix-Contact/1725656?qs=Ul7CXFMnlWWQeccayYbRmw%3D%3D"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -3525,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32e3cd96-bc24-46fd-a368-ca20b6eda3cf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 260.35 76.2 0)
 			(effects
 				(font
@@ -3576,7 +3558,7 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3829,7 +3811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8e0cf3-3e3d-470e-b00a-808b3430a5d0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -3880,7 +3862,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3897,7 +3879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e37094b-352b-45d9-8031-721a230b9eb4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 133.35 85.09 0)
 			(effects
 				(font
@@ -3948,7 +3930,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b668410-a4d9-4a5a-b0f0-c2683ce5d123")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR035"
 			(at 209.55 116.84 0)
 			(effects
 				(font
@@ -4016,7 +3998,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR038")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4155,94 +4137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ15CA")
-		(at 66.04 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a73cbb6-ae86-4b9b-9abf-72efed82562f")
-		(property "Reference" "D5"
-			(at 68.58 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ15CA"
-			(at 68.58 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smaj-datasheet?assetguid=13c2a823-03b8-4d1f-9ddc-9b44670aed9d"
-			(at 66.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
-			(at 66.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-SMBJ15CA"
-			(at 66.04 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMBJ15CA?qs=HR2RnyOI4E54oOMdoTkj3Q%3D%3D"
-			(at 66.04 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb9311b4-d0e3-484d-ae89-d48d134ed445")
-		)
-		(pin "1"
-			(uuid "3aa11923-0d3e-429a-bc61-086dd46df28f")
-		)
-		(instances
-			(project ""
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 177.8 105.41 90)
 		(mirror x)
@@ -4253,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868b8199-9415-4544-8f08-e59f54199d1c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 184.15 105.41 0)
 			(effects
 				(font
@@ -4304,42 +4198,42 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ15CA")
-		(at 81.28 80.01 90)
+		(lib_id "Diode:SMAJ10CA")
+		(at 81.28 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "993aa00f-7e07-4b46-9b7b-fce8c68baf7f")
-		(property "Reference" "D3"
+		(uuid "ea8bfd1f-df8a-402e-a2fe-ee5097420eaf")
+		(property "Reference" "D4"
 			(at 83.82 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SMAJ15CA"
+		(property "Value" "SMAJ10CA"
 			(at 83.82 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 86.36 80.01 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smaj-datasheet?assetguid=13c2a823-03b8-4d1f-9ddc-9b44670aed9d"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smaj-datasheet?assetguid=13C2A823-03B8-4D1F-9DDC-9B44670AED9D"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -4356,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -4365,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ15CA"
+		(property "Mouser Part Number" "576-SMAJ10CA "
 			(at 81.28 80.01 90)
 			(effects
 				(font
@@ -4374,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMBJ15CA?qs=HR2RnyOI4E54oOMdoTkj3Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMAJ10CA?qs=HR2RnyOI4E6vSKXNVUMgrg%3D%3D&srsltid=AfmBOoqWUyJRZLj4wY4xI39O85lqMDrOp95ee0aKEyDAHjGdFy5TiV3T"
 			(at 81.28 80.01 90)
 			(effects
 				(font
@@ -4382,17 +4276,17 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "abe6ceec-08fd-450b-a369-c8ae84a83507")
 		)
 		(pin "1"
-			(uuid "0bfe9dcb-6ec2-4104-a0ca-0835c8573ee3")
+			(uuid "e430c8bc-5c76-4548-b13f-738951563941")
+		)
+		(pin "2"
+			(uuid "eca1f1ee-cff7-4937-b6ea-4422da8aa754")
 		)
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PLC_STM:1725656"
+		(property "Footprint" ""
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -4669,7 +4563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/507/9/phoenix_contact_1725656_en.pdf"
+		(property "Datasheet" "~"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -4679,24 +4573,6 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725656"
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Phoenix-Contact/1725656?qs=Ul7CXFMnlWWQeccayYbRmw%3D%3D"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -4715,6 +4591,94 @@
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ10CA")
+		(at 66.04 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7d1d99-c15e-48a3-9493-991d5adc04bd")
+		(property "Reference" "D3"
+			(at 68.58 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ10CA"
+			(at 68.58 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smaj-datasheet?assetguid=13C2A823-03B8-4D1F-9DDC-9B44670AED9D"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMAJ10CA "
+			(at 66.04 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMAJ10CA?qs=HR2RnyOI4E6vSKXNVUMgrg%3D%3D&srsltid=AfmBOoqWUyJRZLj4wY4xI39O85lqMDrOp95ee0aKEyDAHjGdFy5TiV3T"
+			(at 66.04 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3fed45-62eb-4508-8b5b-e2747f2b2657")
+		)
+		(pin "2"
+			(uuid "a05a91db-0fa2-4408-afae-637e62ecd87b")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
+					(reference "D3")
 					(unit 1)
 				)
 			)

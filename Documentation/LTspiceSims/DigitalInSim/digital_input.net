@@ -1,8 +1,8 @@
 * Z:\home\grzegorz\Studia\DiplomaThesis\STM32-PLC\Documentation\LTspiceSims\DigitalInSim\digital_input.asc
-V1 IN 0 PULSE(0 24 10ms 0.5ms 0.5ms 5ms 10ms)
-M1 IN N005 N002 N002 Si7137DP
+V1 IN 0 PULSE(0 24 10ms 0.5ms 0.5ms 2ms 10ms)
+M1 IN N005 N002 N002 FDS6685
 R1 N005 0 47k
-D1 N005 N002 PMEG3005AEA
+D1 N005 N002 BZX84B9V1LY
 R2 N003 N002 1k
 V2 N001 0 3.3
 C1 N003 0 1n

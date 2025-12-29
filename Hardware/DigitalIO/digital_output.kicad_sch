@@ -135,7 +135,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:CNY17-4"
+		(symbol "Isolator:CNY17-3"
 			(pin_names
 				(offset 1.016)
 			)
@@ -151,7 +151,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CNY17-4"
+			(property "Value" "CNY17-3"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -180,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
+			(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CNY17-4_0_1"
+			(symbol "CNY17-3_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -388,7 +388,7 @@
 					)
 				)
 			)
-			(symbol "CNY17-4_1_1"
+			(symbol "CNY17-3_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2961,89 +2961,6 @@
 		(uuid "e802d5bf-82ba-4503-9572-e0151c0041b6")
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07aa49b1-ddc3-4048-b090-a43744af862f")
-		(property "Reference" "U13"
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e1c8d12-fd58-4d8a-8c0a-5905e25c7a8f")
-		)
-		(pin "3"
-			(uuid "767897a7-9c83-4277-975f-27373f170dc9")
-		)
-		(pin "4"
-			(uuid "cd1c5f3c-6fc7-4102-95fe-f8d7d83dbbb6")
-		)
-		(pin "2"
-			(uuid "a4ed1ffa-f542-42ff-89ad-c98d25822d26")
-		)
-		(pin "6"
-			(uuid "5dc16f66-3f9b-49bd-aec7-2928233ea2ad")
-		)
-		(pin "5"
-			(uuid "9aa6a312-c756-4188-91ea-56f4f868b4ce")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 72.39 147.32 0)
 		(unit 1)
@@ -3071,7 +2988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 147.32 0)
 			(effects
 				(font
@@ -3080,7 +2997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 72.39 147.32 0)
 			(effects
 				(font
@@ -3090,6 +3007,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 72.39 147.32 0)
 			(effects
 				(font
@@ -3131,7 +3066,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 77.47 90)
 			(effects
 				(font
@@ -3139,7 +3074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -3148,7 +3083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -3193,6 +3128,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "49224063-0e25-408e-8dce-1cccdd311359")
 		)
@@ -3206,89 +3159,6 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 33.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "200bba8e-4249-420d-9783-04363ea3b21c")
-		(property "Reference" "U9"
-			(at 154.94 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4000b4a6-e204-4307-821b-62e317f12ee2")
-		)
-		(pin "3"
-			(uuid "2e90d138-445e-4de4-95e6-494cdf2d591d")
-		)
-		(pin "4"
-			(uuid "2f056c86-69a6-4f36-bd1a-9bdc0214b213")
-		)
-		(pin "2"
-			(uuid "bbdbb9e2-ff6b-4363-b00d-5d83b1654994")
-		)
-		(pin "6"
-			(uuid "a1d623b5-386c-41f6-9079-79b276cfbfd3")
-		)
-		(pin "5"
-			(uuid "9076dd6a-f683-482d-8c93-926b14eaab98")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3182,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 123.19 90)
 			(effects
 				(font
@@ -3320,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 124.46 0)
 			(effects
 				(font
@@ -3329,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 129.54 0)
 			(effects
 				(font
@@ -3374,6 +3244,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d8628f95-8722-4273-a54d-59f7a9f0e59e")
 		)
@@ -3387,6 +3275,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24066942-7a64-4eff-a1a3-678b4d8744be")
+		(property "Reference" "U16"
+			(at 154.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b34c54-1b4c-4052-ac38-9291a2f1eb8e")
+		)
+		(pin "6"
+			(uuid "cc6172ab-dca3-41af-810e-1bb20142df57")
+		)
+		(pin "2"
+			(uuid "05a37094-8af3-488c-8e18-52f1ce9bec16")
+		)
+		(pin "5"
+			(uuid "544c79ce-3ef9-4062-b225-b28935780836")
+		)
+		(pin "4"
+			(uuid "d1a09c3a-9383-4350-a2ce-1d6f08e4c789")
+		)
+		(pin "3"
+			(uuid "7135617a-3227-4a27-883a-cd89f65e3237")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -3429,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -3439,6 +3428,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -3463,6 +3470,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3019097c-0617-4ad2-a66e-c147769c4457")
+		(property "Reference" "U11"
+			(at 154.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d70c9e2-4f0b-45b1-9560-9dec4e1f7791")
+		)
+		(pin "6"
+			(uuid "1df8fd26-68b9-4e3f-a37b-7e9b113d6acb")
+		)
+		(pin "2"
+			(uuid "c0dcef63-766c-48ef-a62e-ee7f095a50f1")
+		)
+		(pin "5"
+			(uuid "ae2535f5-abbb-4747-9a08-82e3e6ab679e")
+		)
+		(pin "4"
+			(uuid "6d3f63c0-f25a-4f02-9858-8276905739d9")
+		)
+		(pin "3"
+			(uuid "2b050754-a3c9-4d27-bfe7-3a950724657e")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 180.34 53.34 90)
 		(unit 1)
@@ -3480,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 46.99 90)
 			(effects
 				(font
@@ -3488,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 48.26 0)
 			(effects
 				(font
@@ -3497,7 +3605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -3535,6 +3643,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -3597,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -3607,6 +3733,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -3625,6 +3769,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43184ee7-88b1-4644-9f8b-9666cbb1c5e2")
+		(property "Reference" "U9"
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d686f22e-405a-49cc-ad04-e4fdf82bdaf4")
+		)
+		(pin "6"
+			(uuid "a91c77a8-a373-4698-8e1b-e4a3d8d69fb9")
+		)
+		(pin "2"
+			(uuid "4ec4bf53-b733-46cd-89bf-f99e2fc59c61")
+		)
+		(pin "5"
+			(uuid "859f24c2-0a94-43a5-aa4a-dd0371ea5867")
+		)
+		(pin "4"
+			(uuid "a30566c2-248a-43e0-b12f-ac965f3d6a89")
+		)
+		(pin "3"
+			(uuid "86595c59-aa61-43cd-8f36-e09d46e0ca19")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3665,7 +3910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3683,6 +3928,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21f1667d-d406-4aff-a0a9-57e8c9723faf")
 		)
@@ -3693,89 +3956,6 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b64d9ed-d443-4793-a9e3-145ada853d2a")
-		(property "Reference" "U10"
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "730861fc-4721-4f9b-9642-e25d9bfa673a")
-		)
-		(pin "3"
-			(uuid "ca97921e-8e42-4582-b284-7c9acd989df4")
-		)
-		(pin "4"
-			(uuid "12a85e63-e2c3-4fa5-892f-bb2b51defcc4")
-		)
-		(pin "2"
-			(uuid "8bd1b5bd-9745-4cae-bc74-8ec00f3bd5a3")
-		)
-		(pin "6"
-			(uuid "d0c2cec7-8156-4545-9913-43fa6c735bce")
-		)
-		(pin "5"
-			(uuid "94c96494-ce6e-4846-954a-0aeb80d2e953")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3807,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -3816,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -3834,6 +4014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a546a01-7b6c-480f-ac8e-98c3bb41b07a")
 		)
@@ -3844,89 +4042,6 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5044855a-d737-4a8c-ab4c-ad634e5ffb5e")
-		(property "Reference" "U12"
-			(at 154.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f13bb676-28ae-4a94-a6b4-838a61bc730e")
-		)
-		(pin "3"
-			(uuid "88ffcfc0-1a14-41b8-9869-5a54e42b0951")
-		)
-		(pin "4"
-			(uuid "60f2b269-1117-4835-94cb-2cce68183382")
-		)
-		(pin "2"
-			(uuid "20bab28f-604b-40bd-9c5c-7b4c942f1bdf")
-		)
-		(pin "6"
-			(uuid "12faf381-9a22-429f-8342-ca3f3b8d15af")
-		)
-		(pin "5"
-			(uuid "d2d75793-0f18-4f11-be45-1c617096a90e")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3960,7 +4075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -3969,7 +4084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -3979,6 +4094,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -4028,7 +4161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -4037,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -4048,6 +4181,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4105,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4116,6 +4267,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -4173,7 +4342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -4184,6 +4353,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,172 +4460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "624c0648-6ae5-45f2-993c-7b3b1e35b66e")
-		(property "Reference" "U16"
-			(at 154.94 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a7ff1a5-0c48-4a44-ba9d-b8c95d2cce41")
-		)
-		(pin "3"
-			(uuid "429c0aa8-c6e5-43dd-96c1-7227d077b7d5")
-		)
-		(pin "4"
-			(uuid "32e230c6-cacc-4bee-b53e-158058d0e743")
-		)
-		(pin "2"
-			(uuid "85561fce-6921-4e2e-a1c3-f7e07a6d790f")
-		)
-		(pin "6"
-			(uuid "1ac10b7d-20c5-4a37-98cb-921aadad7ad9")
-		)
-		(pin "5"
-			(uuid "c421c6df-91cc-43c4-a7fd-f4d29c98df39")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62d212c6-df6d-4569-a15d-067d4af22af7")
-		(property "Reference" "U15"
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d732a7d-ba59-4e97-b8a9-687eaee89a27")
-		)
-		(pin "3"
-			(uuid "5c0d4b14-e863-4211-afa4-5f43b4bd2372")
-		)
-		(pin "4"
-			(uuid "ff7ccc4e-4059-4118-9b34-87ac8f4b4d71")
-		)
-		(pin "2"
-			(uuid "d9e5f269-f36c-4bea-8949-6ac25e3dda4f")
-		)
-		(pin "6"
-			(uuid "b9953aa4-52ef-440b-b759-5c9fd32b1157")
-		)
-		(pin "5"
-			(uuid "45639fc1-9c05-40a5-8240-9da1638c23c9")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 167.64 106.68 90)
 		(unit 1)
@@ -4464,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -4473,7 +4494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -4484,6 +4505,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,6 +4546,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3bd221-fbb9-4b6c-936d-97ec82da99f7")
+		(property "Reference" "U15"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24b74e10-0e2d-4683-a52c-269e86a6f09a")
+		)
+		(pin "6"
+			(uuid "a61b5128-462c-49e8-ba4d-b742f690bce8")
+		)
+		(pin "2"
+			(uuid "c8c29088-4d5f-4cda-81a4-4b485c5ce097")
+		)
+		(pin "5"
+			(uuid "559b835e-5654-4691-8855-dcb25038d271")
+		)
+		(pin "4"
+			(uuid "a21eecc7-8384-48ce-aba3-b9b4284e0400")
+		)
+		(pin "3"
+			(uuid "bab1f232-c7ce-44b1-9cbd-466ccae04f73")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 180.34 114.3 90)
 		(unit 1)
@@ -4524,7 +4664,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 107.95 90)
 			(effects
 				(font
@@ -4532,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 109.22 0)
 			(effects
 				(font
@@ -4541,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 114.3 0)
 			(effects
 				(font
@@ -4586,6 +4726,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b1dacc99-b037-472f-bcc3-7502c9a456f2")
 		)
@@ -4599,6 +4757,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740692e7-7b58-474e-8652-c45db73b476a")
+		(property "Reference" "U10"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7448e5de-be30-4532-867a-098529e7ac0d")
+		)
+		(pin "6"
+			(uuid "0e96a586-ce3e-4176-bffc-4ee7c236c652")
+		)
+		(pin "2"
+			(uuid "2b2eb18f-92c5-4f9b-a000-dbe56524bdb9")
+		)
+		(pin "5"
+			(uuid "eeacd274-e462-4acf-a320-ba6ba79d07c1")
+		)
+		(pin "4"
+			(uuid "7efad539-dfd3-4f52-8300-9390fdb8ce20")
+		)
+		(pin "3"
+			(uuid "da5f4ffd-bd08-4219-a5e8-806073be179e")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -4639,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -4650,6 +4909,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4967,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 92.71 90)
 			(effects
 				(font
@@ -4698,7 +4975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -4707,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 99.06 0)
 			(effects
 				(font
@@ -4745,6 +5022,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -4805,7 +5100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -4816,6 +5111,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -4873,7 +5186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -4891,6 +5204,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e101751c-6d7b-4c78-9575-c9a7027c1fc3")
 		)
@@ -4901,6 +5232,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a2ec51-9084-48f5-9064-87410489a37d")
+		(property "Reference" "U12"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b97a708-2fff-4d8e-ab16-08699a4328a6")
+		)
+		(pin "6"
+			(uuid "fc46b195-9c88-4d7e-8e25-8cc35bdaf4cb")
+		)
+		(pin "2"
+			(uuid "e2ba7fad-a4f6-489f-9c18-e5735d39831c")
+		)
+		(pin "5"
+			(uuid "1eb51f95-126a-4db2-89d5-173b534efb9c")
+		)
+		(pin "4"
+			(uuid "028961f0-0c89-4747-bce6-16209ce48def")
+		)
+		(pin "3"
+			(uuid "f4cdae29-8866-4f47-86c8-6f3f62d52fb8")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -4932,7 +5364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -4941,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -4959,6 +5391,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "163067b5-3b3b-47e1-8b4f-4079e0ee0a06")
 		)
@@ -4969,89 +5419,6 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99fcf255-0b67-44de-b904-6a302bcf5fed")
-		(property "Reference" "U14"
-			(at 154.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3227782-5427-4826-bf0e-69d0f4245d9b")
-		)
-		(pin "3"
-			(uuid "b9bac904-542e-425c-aa19-7914301c5048")
-		)
-		(pin "4"
-			(uuid "b20eb45e-c4cd-4a08-bc8c-3a67ee01a156")
-		)
-		(pin "2"
-			(uuid "5030bc7e-f5e3-4124-8458-9dce815065e7")
-		)
-		(pin "6"
-			(uuid "5bafbcfd-b1f1-4ca8-95c5-31b872129a5e")
-		)
-		(pin "5"
-			(uuid "5add434c-8f91-4772-9e43-fa3f2a825c9b")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -5149,7 +5516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -5158,7 +5525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -5169,6 +5536,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,89 +5643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-4")
-		(at 154.94 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b796f722-4bfd-4f81-8d18-006238cad660")
-		(property "Reference" "U11"
-			(at 154.94 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-4"
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a3528af-2f87-4243-bf68-3ed11affaaf2")
-		)
-		(pin "3"
-			(uuid "0957a712-fb7c-4506-b468-8c181818b3c4")
-		)
-		(pin "4"
-			(uuid "20147a12-40b1-4868-9258-67e69d3b47a8")
-		)
-		(pin "2"
-			(uuid "d1528047-eca3-496a-bbff-59a2fc9e8062")
-		)
-		(pin "6"
-			(uuid "014aabca-4b69-4247-9ba3-5f7006bf82a8")
-		)
-		(pin "5"
-			(uuid "bfd6ef95-1f66-4202-bd27-bc681ae611aa")
-		)
-		(instances
-			(project "digitalIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 167.64 121.92 90)
 		(unit 1)
@@ -5366,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -5375,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -5386,6 +5688,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 147.32 0)
 			(effects
 				(font
@@ -5445,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 82.55 147.32 0)
 			(effects
 				(font
@@ -5455,6 +5775,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 82.55 147.32 0)
 			(effects
 				(font
@@ -5473,6 +5811,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccfdea82-cc6e-446a-a675-01d9eb5760e6")
+		(property "Reference" "U14"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039cb76c-12ba-4c42-bbf5-505b968958b3")
+		)
+		(pin "6"
+			(uuid "ea898a51-3ea0-4670-8ca0-6bf88e58260f")
+		)
+		(pin "2"
+			(uuid "1e331be8-b118-4bc3-9bf9-0a72b959c1bd")
+		)
+		(pin "5"
+			(uuid "17c9d8c8-e06e-43be-840e-a9f39a667630")
+		)
+		(pin "4"
+			(uuid "0fbbcf37-1fd7-4b51-86ca-aadc0384583c")
+		)
+		(pin "3"
+			(uuid "84a517cc-6415-4301-80c1-43d62f436e57")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -5504,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -5513,7 +5952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -5524,6 +5963,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 167.64 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 167.64 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -5581,7 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -5592,6 +6049,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -5649,7 +6124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -5660,6 +6135,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +6203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -5719,7 +6212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -5729,6 +6222,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 92.71 147.32 0)
 			(effects
 				(font
@@ -5778,7 +6289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 119.38 0)
 			(effects
 				(font
@@ -5787,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 185.42 119.38 0)
 			(effects
 				(font
@@ -5798,6 +6309,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06031K00FKED"
+			(at 185.42 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
+			(at 185.42 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 62.23 90)
 			(effects
 				(font
@@ -5846,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -5855,7 +6384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 68.58 0)
 			(effects
 				(font
@@ -5900,6 +6429,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e2682aa3-e320-4e12-be82-53d659280e41")
 		)
@@ -5936,7 +6483,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 138.43 90)
 			(effects
 				(font
@@ -5944,7 +6491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 139.7 0)
 			(effects
 				(font
@@ -5953,7 +6500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 144.78 0)
 			(effects
 				(font
@@ -5991,6 +6538,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6665,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "SI2347DS"
 			(at 180.34 31.75 90)
 			(effects
 				(font
@@ -6108,7 +6673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 177.8 33.02 0)
 			(effects
 				(font
@@ -6117,7 +6682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -6155,6 +6720,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
+			(at 180.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
+			(at 180.34 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -6217,7 +6800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -6227,6 +6810,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -6278,7 +6879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -6287,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -6297,6 +6898,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -6315,6 +6934,107 @@
 			(project "digitalIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:CNY17-3")
+		(at 154.94 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe88dcb3-f47c-4644-a4f5-0a7dba51e041")
+		(property "Reference" "U13"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CNY17-3"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "782-CNY17-3X009"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4a4cc1-4d65-422e-b8fa-dd67e7d026ad")
+		)
+		(pin "6"
+			(uuid "6dcde852-e146-4c9a-a01a-c967f06dc621")
+		)
+		(pin "2"
+			(uuid "e6c48f89-d209-47ab-8e4a-c274086ca2c0")
+		)
+		(pin "5"
+			(uuid "72ee7daf-f3db-46c0-997a-f0f9c8cb1411")
+		)
+		(pin "4"
+			(uuid "76b804ac-60b0-4d67-ae15-8b0347bebd2b")
+		)
+		(pin "3"
+			(uuid "7af80ef8-a3e9-4f5f-b85f-1e5d928a5dee")
+		)
+		(instances
+			(project "digitalIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/66aaa0ed-28c6-43db-9132-49c7d324c89b"
+					(reference "U13")
 					(unit 1)
 				)
 			)
