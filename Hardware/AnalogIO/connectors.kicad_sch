@@ -4164,7 +4164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a73cbb6-ae86-4b9b-9abf-72efed82562f")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 68.58 78.7399 90)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "993aa00f-7e07-4b46-9b7b-fce8c68baf7f")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 83.82 78.7399 90)
 			(effects
 				(font
@@ -4392,7 +4392,7 @@
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/d5b0e62d-bd3f-4f7d-ae0f-b864e773d760"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)

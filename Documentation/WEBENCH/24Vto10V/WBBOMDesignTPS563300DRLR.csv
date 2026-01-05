@@ -1,9 +1,0 @@
-﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
-U1,Texas Instruments,TPS563300DRLR,1,0.375,8.06,
-Cinx,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
-Cout,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 17 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
-L1,Bourns,SRR1208-100ML,1,0.56,216.09,L: 10 µH  DCR: 21 mΩ  IDC: 6.7 A  
-Cin,Taiyo Yuden,MSASU32MSB5106KPNA01,1,0.16148,14.7,Cap: 10 µF  Total Derated Cap: 4 µF  VDC: 50 V  ESR: 3.98 mΩ  Package: 1210  
-Cboot,MuRata,GRM155R71A104KA01D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
-Rfbb,Vishay-Dale,CRCW040210K0FKED,1,0.01,3,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 63 mW  
-Rfbt,Vishay-Dale,CRCW0402115KFKED,1,0.01,3,Resistance: 115 kΩ  Tolerance: 1.0%  Power: 63 mW  
