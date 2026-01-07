@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "digitalIO.kicad_pro",
+    "filename": "digital_input.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -619,54 +619,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pin",
-          "name": "Sim.Pin",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Alternative",
-          "name": "Alternative",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Alternative2",
-          "name": "Alternative2",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -730,15 +682,11 @@
       "Root"
     ],
     [
-      "ad631919-bc4e-4630-a7dd-140d6666075a",
-      "digital_input"
+      "6a3b3241-0ad0-4b16-a514-26e740810b1b",
+      "digital_in"
     ],
     [
-      "66aaa0ed-28c6-43db-9132-49c7d324c89b",
-      "digital_output"
-    ],
-    [
-      "a3324828-c59a-446c-84be-8caf0e60ff6d",
+      "eebddd9c-e619-42e1-ad9b-cb9bcaeb71d8",
       "connectors"
     ]
   ],

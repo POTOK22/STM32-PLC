@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "analogIO.kicad_pro",
+    "filename": "digitalIO.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -582,19 +582,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -622,33 +622,15 @@
         },
         {
           "group_by": false,
-          "label": "License",
-          "name": "License",
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": true
         },
         {
           "group_by": false,
@@ -658,8 +640,8 @@
         },
         {
           "group_by": false,
-          "label": "m",
-          "name": "m",
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         },
         {
@@ -676,9 +658,15 @@
         },
         {
           "group_by": false,
-          "label": "Author",
-          "name": "Author",
-          "show": false
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -742,15 +730,11 @@
       "Root"
     ],
     [
-      "c35516e2-6320-41b9-a032-9137d9aa80bb",
-      "analog_input"
+      "66aaa0ed-28c6-43db-9132-49c7d324c89b",
+      "digital_output"
     ],
     [
-      "f86c0848-2586-4a23-952a-baab9c36df97",
-      "analog_output"
-    ],
-    [
-      "d5b0e62d-bd3f-4f7d-ae0f-b864e773d760",
+      "a3324828-c59a-446c-84be-8caf0e60ff6d",
       "connectors"
     ]
   ],

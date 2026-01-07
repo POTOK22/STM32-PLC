@@ -761,7 +761,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
+		(symbol "power:+15V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -782,7 +782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+12V"
+			(property "Value" "+15V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -808,7 +808,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -826,7 +826,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+12V_0_1"
+			(symbol "+15V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -864,7 +864,7 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
+			(symbol "+15V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1011,7 +1011,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-12V"
+		(symbol "power:-15V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1032,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-12V"
+			(property "Value" "-15V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1058,7 +1058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1076,7 +1076,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-12V_0_0"
+			(symbol "-15V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1096,7 +1096,7 @@
 					)
 				)
 			)
-			(symbol "-12V_0_1"
+			(symbol "-15V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -1208,6 +1208,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1373,6 +1474,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9603f4-1bf7-4a52-a6cc-fbad7b94459b")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8a9bb2c-a4de-46e9-b57e-0c46acce9e1e")
 	)
 	(wire
 		(pts
@@ -2278,7 +2385,7 @@
 			)
 		)
 	)
-	(global_label "AO0"
+	(global_label "AO_0"
 		(shape input)
 		(at 237.49 58.42 0)
 		(fields_autoplaced yes)
@@ -2288,9 +2395,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8e7208d8-4626-4675-ac34-93fbffa19622")
+		(uuid "7b254589-1fd4-482e-bb7f-b6c11195f780")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1038 58.42 0)
+			(at 245.0714 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2407,7 @@
 			)
 		)
 	)
-	(global_label "AO1"
+	(global_label "AO_1"
 		(shape input)
 		(at 237.49 109.22 0)
 		(fields_autoplaced yes)
@@ -2310,9 +2417,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cf10c5a4-8820-4484-8f61-52ecb47a6a64")
+		(uuid "eba03e1f-d31b-4613-a88e-7756ec6928a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1038 109.22 0)
+			(at 245.0714 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,111 +2672,6 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 132.08 114.3 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b39252f-aa71-4d15-bce6-7fc6575b4bce")
-		(property "Reference" "U2"
-			(at 132.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 132.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm158.pdf"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-LM358D"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LM358D?qs=4kXaGCtSlT3mFye4RVsPfA%3D%3D"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "cbf7d0dc-a189-4d59-8b00-3c61749eab6d")
-		)
-		(pin "6"
-			(uuid "7ac99e5e-d5d9-4fa5-a541-5f7b4d06194d")
-		)
-		(pin "7"
-			(uuid "a1c28bc8-34d4-4236-b3b8-b14f9127cfce")
-		)
-		(pin "5"
-			(uuid "080c4b7d-ce5c-47f4-9930-594b69dec80f")
-		)
-		(pin "1"
-			(uuid "396e52ec-4d72-4444-a78b-036ff9a2e901")
-		)
-		(pin "4"
-			(uuid "3e9a8929-63b4-4682-ba2c-8dca0914c502")
-		)
-		(pin "2"
-			(uuid "9a5359ca-23f1-4a78-ba08-d10948d8c26f")
-		)
-		(pin "3"
-			(uuid "d64343a1-e5d5-4432-b53e-1f4a9e8e9d7e")
-		)
-		(instances
-			(project ""
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM358")
 		(at 191.77 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -2768,6 +2770,72 @@
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 57.15 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300aa1f3-8167-41f1-a8ac-ce4ea4b75ea6")
+		(property "Reference" "#PWR015"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 57.15 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8985ffe4-4923-40a9-9d53-ec8b84845aa9")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3189,17 +3257,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 81.28 116.84 0)
+		(lib_id "Amplifier_Operational:LM358")
+		(at 132.08 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a7652a9-1a46-46ff-a95e-69a71b7724e3")
-		(property "Reference" "#PWR019"
-			(at 81.28 120.65 0)
+		(uuid "4b6518c5-4bad-4a85-9467-aaf656a77e73")
+		(property "Reference" "U2"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,16 +3292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 116.84 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm158.pdf"
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,8 +3301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 116.84 0)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,22 +3310,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 81.28 116.84 0)
+		(property "Mouser Part Number" "511-LM358D"
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LM358D?qs=4kXaGCtSlT3mFye4RVsPfA%3D%3D"
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "77abcc16-5bbb-4e3e-b85a-cfe33000957a")
+		)
+		(pin "6"
+			(uuid "35f95c76-4fb1-47be-adc6-184e90c3360d")
+		)
+		(pin "5"
+			(uuid "0abc3a52-da24-452b-9a34-5c6372db28c4")
 		)
 		(pin "1"
-			(uuid "1c396f95-f4eb-45db-a9ee-18535c2bcf36")
+			(uuid "958b1b56-4a5f-427e-bba9-c0ff62e19098")
+		)
+		(pin "2"
+			(uuid "022fe552-b052-4a92-8b4d-215b12470e4f")
+		)
+		(pin "4"
+			(uuid "e5b53410-85e8-444a-a916-22b3571c207b")
+		)
+		(pin "3"
+			(uuid "bd1af8d8-b552-4d2a-bcec-b5752ff01ad2")
+		)
+		(pin "8"
+			(uuid "678a3b0a-42da-48f3-a8f0-c1412c1f642e")
 		)
 		(instances
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "#PWR019")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3449,6 +3556,72 @@
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 81.28 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57702239-19f5-418f-bd0b-c3fb3ffb7982")
+		(property "Reference" "#PWR019"
+			(at 81.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6add7be-ce21-4b0e-8ae5-4d7365870391")
+		)
+		(instances
+			(project "analogIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4079,111 +4252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 132.08 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71baa3c4-d17a-4dfa-846a-8a5765c43ffe")
-		(property "Reference" "U2"
-			(at 132.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm158.pdf"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-LM358D"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LM358D?qs=4kXaGCtSlT3mFye4RVsPfA%3D%3D"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "77abcc16-5bbb-4e3e-b85a-cfe33000957a")
-		)
-		(pin "6"
-			(uuid "35f95c76-4fb1-47be-adc6-184e90c3360d")
-		)
-		(pin "5"
-			(uuid "0abc3a52-da24-452b-9a34-5c6372db28c4")
-		)
-		(pin "1"
-			(uuid "b955799c-c334-4c3a-9af0-1e7a9d686f54")
-		)
-		(pin "2"
-			(uuid "b4612347-76fe-475e-8fa8-d32221a5d3b5")
-		)
-		(pin "4"
-			(uuid "e5b53410-85e8-444a-a916-22b3571c207b")
-		)
-		(pin "3"
-			(uuid "b9c222a1-5ada-4fa6-83fd-b7119913df18")
-		)
-		(pin "8"
-			(uuid "678a3b0a-42da-48f3-a8f0-c1412c1f642e")
-		)
-		(instances
-			(project ""
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 121.92 76.2 180)
 		(unit 1)
@@ -4376,73 +4444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
-		(at 81.28 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89047fea-ae5d-4198-a9e3-d8a33ae1f2f7")
-		(property "Reference" "#PWR020"
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 83.82 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 81.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf5b9f26-e2a1-4eca-a345-a3f5c6049383")
-		)
-		(instances
-			(project "analogIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 121.92 0)
 		(unit 1)
@@ -4509,72 +4510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 57.15 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ec69328-b313-4194-b410-61221d9e235c")
-		(property "Reference" "#PWR015"
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cb62c21-a11c-4052-9cb2-a7adccc6b0d2")
-		)
-		(instances
-			(project "analogIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 137.16 0)
 		(unit 1)
@@ -4635,73 +4570,6 @@
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 57.15 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94052702-a3d7-4b8a-9daa-8dd1655165af")
-		(property "Reference" "#PWR016"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 59.69 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73fcaacf-0809-42e2-844c-71ce8a0e3d75")
-		)
-		(instances
-			(project "analogIO"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4894,6 +4762,177 @@
 			(project "analogIO"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 132.08 63.5 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71c88ee-ddc4-42e7-a711-08c7d00310d0")
+		(property "Reference" "U2"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm158.pdf"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-LM358D"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LM358D?qs=4kXaGCtSlT3mFye4RVsPfA%3D%3D"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cbf7d0dc-a189-4d59-8b00-3c61749eab6d")
+		)
+		(pin "6"
+			(uuid "6baf1af8-dab7-4381-88ac-79f3f46f7549")
+		)
+		(pin "7"
+			(uuid "29ae863d-a572-4be8-a375-70add722ee7f")
+		)
+		(pin "5"
+			(uuid "ab5bb58e-0860-48ff-93e2-2803e5c40704")
+		)
+		(pin "1"
+			(uuid "396e52ec-4d72-4444-a78b-036ff9a2e901")
+		)
+		(pin "4"
+			(uuid "3e9a8929-63b4-4682-ba2c-8dca0914c502")
+		)
+		(pin "2"
+			(uuid "9a5359ca-23f1-4a78-ba08-d10948d8c26f")
+		)
+		(pin "3"
+			(uuid "d64343a1-e5d5-4432-b53e-1f4a9e8e9d7e")
+		)
+		(instances
+			(project "analogIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 81.28 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a869e2c0-c676-4010-91d1-c44a3b9cb221")
+		(property "Reference" "#PWR020"
+			(at 81.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 81.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc1dea1f-39d0-4b57-aa25-982356dd71fd")
+		)
+		(instances
+			(project "analogIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5740,6 +5779,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ee2cd6-74bb-4683-a8db-db37928dcca6")
+		(property "Reference" "#FLG04"
+			(at 167.64 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_FLAG"
+			(at 167.6399 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c3007b-9027-4f27-b405-6aa3487123da")
+		)
+		(instances
+			(project "analogIO"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 132.08 76.2 90)
 		(unit 1)
@@ -6098,6 +6204,72 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 57.15 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb5f162-5197-4762-82f0-538b92ec8862")
+		(property "Reference" "#PWR016"
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 57.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014aa7bd-6241-4269-b69c-092bf6c88e45")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/f86c0848-2586-4a23-952a-baab9c36df97"
+					(reference "#PWR016")
+					(unit 1)
 				)
 			)
 		)
