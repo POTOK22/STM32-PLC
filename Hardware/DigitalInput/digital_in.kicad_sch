@@ -1741,6 +1741,12 @@
 		(uuid "0561b5dd-33fe-49b0-8193-f1c5ffcb3c49")
 	)
 	(junction
+		(at 166.37 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a9fe15-b8be-4aac-9098-f785b46ebe48")
+	)
+	(junction
 		(at 212.09 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1787,12 +1793,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2afc6c3d-419f-4e00-b534-129fda3572ef")
-	)
-	(junction
-		(at 119.38 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dfec9c4-3f7e-4f04-9a8e-6b0d2492a147")
 	)
 	(junction
 		(at 111.76 68.58)
@@ -1925,6 +1925,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a681a0-8267-4484-8c9d-075d7b95b56d")
+	)
+	(junction
+		(at 119.38 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a4a0817-6348-4849-aa72-9946999f3dfe")
 	)
 	(junction
 		(at 177.8 152.4)
@@ -2386,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 154.94) (xy 166.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffe9294-e240-4d79-b93a-a215782cc98d")
+	)
+	(wire
+		(pts
 			(xy 111.76 83.82) (xy 121.92 83.82)
 		)
 		(stroke
@@ -2526,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 119.38 154.94)
+			(xy 119.38 142.24) (xy 119.38 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3506,16 +3522,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 142.24) (xy 119.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ef42e2-a736-42b2-bde2-cfed74f2027d")
-	)
-	(wire
-		(pts
 			(xy 137.16 22.86) (xy 143.51 22.86)
 		)
 		(stroke
@@ -3593,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "d13f2c49-a2c3-4515-ba1c-7c106a81334d")
+	)
+	(wire
+		(pts
+			(xy 119.38 154.94) (xy 119.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d361ec02-6e88-4630-9a02-d21723fa7e92")
 	)
 	(wire
 		(pts
@@ -5733,7 +5749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 154.94 0)
+		(at 166.37 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5742,7 +5758,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fa93f3c-b05f-4a0b-b822-1cd1f23c8496")
 		(property "Reference" "#PWR03"
-			(at 166.37 161.29 0)
+			(at 166.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +5767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 160.02 0)
+			(at 166.37 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 154.94 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 154.94 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 154.94 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6395,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 119.38 154.94 0)
+		(at 119.38 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6388,7 +6404,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ac74628-21ab-4cd2-923c-bc735aaa6fb1")
 		(property "Reference" "#PWR01"
-			(at 119.38 161.29 0)
+			(at 119.38 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6413,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 119.38 160.02 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 154.94 0)
+			(at 119.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 154.94 0)
+			(at 119.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 119.38 154.94 0)
+			(at 119.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6461,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 152.4 90)
+		(at 119.38 154.94 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6454,7 +6470,7 @@
 		(dnp no)
 		(uuid "3f48547a-ffd5-412b-b3b1-c9855b29a714")
 		(property "Reference" "#FLG01"
-			(at 117.475 152.4 0)
+			(at 117.475 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6479,7 @@
 			)
 		)
 		(property "Value" "GNDREF_FLAG"
-			(at 115.57 152.3999 90)
+			(at 115.57 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 152.4 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 152.4 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6506,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 152.4 0)
+			(at 119.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,6 +8379,73 @@
 			(project "digital_input"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6a3b3241-0ad0-4b16-a514-26e740810b1b"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f54d941-8060-4d76-a0eb-bbec30f9911c")
+		(property "Reference" "#FLG03"
+			(at 168.275 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_FLAG"
+			(at 170.18 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc832d7d-6059-4877-88bd-dd17a5624e66")
+		)
+		(instances
+			(project "digital_input"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6a3b3241-0ad0-4b16-a514-26e740810b1b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

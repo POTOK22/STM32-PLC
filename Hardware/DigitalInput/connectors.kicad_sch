@@ -10,7 +10,7 @@
 		(company "Author: Grzegorz Potocki")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x08"
+		(symbol "Connector:Screw_Terminal_01x09"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -19,14 +19,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 10.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x08"
+			(property "Value" "Screw_Terminal_01x09"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,9 +79,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x08_1_1"
+			(symbol "Screw_Terminal_01x09_1_1"
 				(rectangle
-					(start -1.27 8.89)
+					(start -1.27 11.43)
 					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
@@ -89,6 +89,18 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 10.4902) (xy 0.3302 9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -178,6 +190,18 @@
 				(polyline
 					(pts
 						(xy -0.5334 -9.8298) (xy 0.3302 -10.668)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 10.668) (xy 0.508 9.8298)
 					)
 					(stroke
 						(width 0.1524)
@@ -284,6 +308,17 @@
 					)
 				)
 				(circle
+					(center 0 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 0 7.62)
 					(radius 0.635)
 					(stroke
@@ -372,7 +407,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -390,7 +425,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -408,7 +443,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -426,7 +461,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -444,7 +479,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -462,7 +497,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -480,7 +515,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -498,7 +533,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -508,6 +543,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2300,6 +2353,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 102.87 143.51)
@@ -2350,8 +2540,8 @@
 		(uuid a3ecdc57-2499-4427-ae5c-426861d762d5)
 	)
 	(rectangle
-		(start 44.45 64.77)
-		(end 158.75 85.09)
+		(start 46.99 64.77)
+		(end 165.1 85.09)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2391,7 +2581,7 @@
 	)
 	(text "esd protection"
 		(exclude_from_sim no)
-		(at 158.75 83.82 0)
+		(at 165.1 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,94 +2591,106 @@
 		(uuid "dd1b7951-a30d-46a9-a0f7-b5c0dbf49404")
 	)
 	(junction
-		(at 118.11 76.2)
+		(at 124.46 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "030d810f-8f7b-42aa-85c7-b751c44fc80f")
 	)
 	(junction
-		(at 104.14 76.2)
+		(at 152.4 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ea7478-0079-4049-b30b-a56bf0c6de13")
+	)
+	(junction
+		(at 110.49 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e519bb-dcde-4e6b-9a62-77cd4621fb36")
 	)
 	(junction
-		(at 90.17 55.88)
+		(at 82.55 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b28ce7d-57d6-4ca2-b0c8-b19b9c137602")
+		(uuid "1ca9e895-b00b-46d5-b6db-6dc90bd28c3b")
 	)
 	(junction
-		(at 132.08 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f350215-a214-49da-9f00-302437765934")
-	)
-	(junction
-		(at 62.23 76.2)
+		(at 68.58 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3005a910-d842-4afd-bbf1-b337ec268ce6")
 	)
 	(junction
-		(at 48.26 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45892452-6c67-4600-8746-9bef9e5c7b1d")
-	)
-	(junction
-		(at 90.17 76.2)
+		(at 96.52 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53297688-2c6d-44cd-8e20-9c6da45ee518")
 	)
 	(junction
-		(at 62.23 60.96)
+		(at 138.43 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ab37218-b2b0-4e2a-a793-322496bd76ce")
+		(uuid "7c6b4c89-9de5-4a1d-a62c-347fd6e1c374")
 	)
 	(junction
-		(at 76.2 76.2)
+		(at 82.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89161395-836e-41fc-bee2-d6813112d68a")
 	)
 	(junction
-		(at 146.05 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b0c0e00-fec6-4fb1-80c1-1a134926865c")
-	)
-	(junction
-		(at 48.26 76.2)
+		(at 54.61 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc67f30-f444-42a3-a7b1-ca2d55cb5ff4")
 	)
 	(junction
-		(at 118.11 50.8)
+		(at 110.49 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af10a9be-cd07-45f5-b214-0759a778f6b6")
+		(uuid "9a146d4c-a9da-4a4e-9bcf-432808f93cff")
 	)
 	(junction
-		(at 104.14 53.34)
+		(at 54.61 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6ac6055-7cff-4ffc-b31a-472db494d81c")
+		(uuid "b8fc025c-cfdd-485a-86e9-5631199454f4")
 	)
 	(junction
-		(at 76.2 58.42)
+		(at 124.46 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2af028f-2a56-4e5c-b3bc-5e7285d7324e")
+		(uuid "d6492939-4740-4bc4-be0e-70bd8df5aa71")
 	)
 	(junction
-		(at 132.08 76.2)
+		(at 96.52 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb432f01-b35e-4a41-b648-2d9df2ca664d")
+	)
+	(junction
+		(at 68.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecef247e-d3d3-46e5-9f61-7f9f5cafaf32")
+	)
+	(junction
+		(at 138.43 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2f7a20c-9b7c-4d82-9f6e-14e9c3efa268")
+	)
+	(no_connect
+		(at 127 147.32)
+		(uuid "01a23770-a72a-458d-8548-ad5c1489ca18")
+	)
+	(no_connect
+		(at 139.7 149.86)
+		(uuid "07b21757-1ec2-440b-b563-e12ff2ac84f1")
+	)
+	(no_connect
+		(at 127 149.86)
+		(uuid "09546e72-63d2-4e8f-872e-fe09e2cdc47e")
 	)
 	(no_connect
 		(at 127 132.08)
@@ -2499,16 +2701,12 @@
 		(uuid "0e190825-b90e-4f29-a06d-c5bded2b5ad6")
 	)
 	(no_connect
-		(at 63.5 120.65)
-		(uuid "124b1d4b-6ba3-4420-8bd7-8503938b0362")
-	)
-	(no_connect
 		(at 63.5 168.91)
 		(uuid "1bbafa55-16e1-44fa-a78b-1fff73502496")
 	)
 	(no_connect
-		(at 63.5 128.27)
-		(uuid "1c025804-d769-4d01-972b-20bbdf5ef0ba")
+		(at 139.7 124.46)
+		(uuid "213fc510-3170-4b43-be84-897ec2b06c36")
 	)
 	(no_connect
 		(at 63.5 171.45)
@@ -2523,8 +2721,16 @@
 		(uuid "3173b9ed-346d-4b8f-8c59-1472379633c9")
 	)
 	(no_connect
+		(at 139.7 134.62)
+		(uuid "33a9a46c-73f7-43c5-bf07-8d3ecfaec7e7")
+	)
+	(no_connect
 		(at 63.5 166.37)
 		(uuid "3ac4a66a-59df-4045-80f3-362aa2ed160f")
+	)
+	(no_connect
+		(at 139.7 160.02)
+		(uuid "3b33e766-4065-475b-8988-d7edc1e3cfdc")
 	)
 	(no_connect
 		(at 139.7 144.78)
@@ -2535,16 +2741,20 @@
 		(uuid "455e8d67-54b9-4e56-8e13-67c4b676afa7")
 	)
 	(no_connect
+		(at 127 134.62)
+		(uuid "4a736864-ee41-4afb-9e06-7b530fdb7f87")
+	)
+	(no_connect
 		(at 127 144.78)
 		(uuid "4aca4c8f-24be-48e7-bd41-b625973fc7ae")
 	)
 	(no_connect
-		(at 50.8 143.51)
-		(uuid "4b85aaa4-22be-4693-acb8-b94ca6a1c845")
+		(at 139.7 121.92)
+		(uuid "4b543fc9-3ba4-4c0e-ad1c-d8d53a221e2f")
 	)
 	(no_connect
-		(at 63.5 135.89)
-		(uuid "4c32b15a-affb-470f-914e-36253f3390bf")
+		(at 50.8 143.51)
+		(uuid "4b85aaa4-22be-4693-acb8-b94ca6a1c845")
 	)
 	(no_connect
 		(at 127 160.02)
@@ -2559,8 +2769,16 @@
 		(uuid "525b048d-3ccc-48be-8f47-92fcdbf90137")
 	)
 	(no_connect
-		(at 63.5 123.19)
-		(uuid "55c9765f-2a93-47a0-b60b-7a0bd8a9453c")
+		(at 127 121.92)
+		(uuid "54579422-f19a-4416-b221-4e0429e91c5e")
+	)
+	(no_connect
+		(at 139.7 152.4)
+		(uuid "56797d8d-75a4-4e39-aba1-fbd4748f2457")
+	)
+	(no_connect
+		(at 127 124.46)
+		(uuid "5e1a49c1-8e3c-404f-8cae-5f3b0bdf3134")
 	)
 	(no_connect
 		(at 63.5 148.59)
@@ -2583,8 +2801,8 @@
 		(uuid "671dc235-4a24-4037-9fbd-9382b86adf90")
 	)
 	(no_connect
-		(at 63.5 133.35)
-		(uuid "6a24803c-60a9-4177-b665-eb627ad2f20a")
+		(at 139.7 119.38)
+		(uuid "6a1820f2-9020-4e37-922f-2480a597ed0b")
 	)
 	(no_connect
 		(at 50.8 130.81)
@@ -2603,8 +2821,8 @@
 		(uuid "7d9f712d-7d2e-4372-8f77-91afba613c80")
 	)
 	(no_connect
-		(at 63.5 125.73)
-		(uuid "7e7b19de-2914-4a24-a52d-99f2e7d71ed2")
+		(at 127 162.56)
+		(uuid "829025e2-29f8-4d26-8ace-0a735d1db73e")
 	)
 	(no_connect
 		(at 63.5 163.83)
@@ -2619,16 +2837,24 @@
 		(uuid "84f30590-3893-4a1c-888e-ab97399179f7")
 	)
 	(no_connect
-		(at 63.5 130.81)
-		(uuid "87c42571-64cb-4a39-867f-2d14d4655be4")
-	)
-	(no_connect
 		(at 139.7 172.72)
 		(uuid "9eb5f48b-4ad1-455e-bb21-f0ff6f5cb282")
 	)
 	(no_connect
+		(at 127 165.1)
+		(uuid "a4e831ff-d4a1-4bb6-9291-f76654887af5")
+	)
+	(no_connect
+		(at 139.7 162.56)
+		(uuid "a68d56a4-b698-4098-99ec-a13599f4f7f3")
+	)
+	(no_connect
 		(at 127 127)
 		(uuid "aac58239-ed0c-480f-87c0-125d24d727fd")
+	)
+	(no_connect
+		(at 139.7 167.64)
+		(uuid "ab8b7f44-cbd3-48b7-92b1-1d7f7a18be56")
 	)
 	(no_connect
 		(at 63.5 143.51)
@@ -2637,6 +2863,18 @@
 	(no_connect
 		(at 50.8 151.13)
 		(uuid "acf0a625-97bd-4087-a8dd-4f654b3a1c8d")
+	)
+	(no_connect
+		(at 127 139.7)
+		(uuid "ad79408f-c499-4bf0-b396-ea8cd8d3fa28")
+	)
+	(no_connect
+		(at 139.7 154.94)
+		(uuid "b1923c96-a289-482a-b8f3-346b8373f139")
+	)
+	(no_connect
+		(at 139.7 129.54)
+		(uuid "bc237e16-9a9d-4350-8867-65390e7df1e2")
 	)
 	(no_connect
 		(at 139.7 142.24)
@@ -2651,6 +2889,10 @@
 		(uuid "c72c5b9a-5f06-4404-a5ca-5e32be541e96")
 	)
 	(no_connect
+		(at 139.7 170.18)
+		(uuid "c7a0e099-fec3-4afc-8594-84a79bff80b3")
+	)
+	(no_connect
 		(at 127 129.54)
 		(uuid "c8e7e568-daee-4e65-bff0-87b2b20dd2b6")
 	)
@@ -2659,8 +2901,8 @@
 		(uuid "cb80cc12-bf75-431f-83d9-4336a44e90ca")
 	)
 	(no_connect
-		(at 63.5 138.43)
-		(uuid "cfa618e5-a5af-4029-a25c-fd32ea51a3b1")
+		(at 127 142.24)
+		(uuid "d24cc91c-97fb-470e-8e79-f03ef66f1754")
 	)
 	(no_connect
 		(at 127 157.48)
@@ -2679,12 +2921,24 @@
 		(uuid "d7bc7e3d-c565-4ce0-b67d-4a34f36b434b")
 	)
 	(no_connect
+		(at 139.7 157.48)
+		(uuid "db53a930-123c-438b-8c63-39a35e60e095")
+	)
+	(no_connect
 		(at 139.7 137.16)
 		(uuid "dcfcbba5-51f8-4ec8-ad8d-c46a8a55d0eb")
 	)
 	(no_connect
 		(at 50.8 153.67)
 		(uuid "e1aad397-5ac5-45ef-877b-53038057506f")
+	)
+	(no_connect
+		(at 127 137.16)
+		(uuid "e492a56c-ac1e-444d-b4c4-8368a68b8352")
+	)
+	(no_connect
+		(at 139.7 147.32)
+		(uuid "e4e40f0a-4814-49cd-978c-fc0714bd0869")
 	)
 	(no_connect
 		(at 63.5 146.05)
@@ -2707,6 +2961,14 @@
 		(uuid "f0270ed7-486d-4c21-8849-e36a2a33a210")
 	)
 	(no_connect
+		(at 139.7 132.08)
+		(uuid "f043d82d-1e71-4c83-ba41-3a8795b02d01")
+	)
+	(no_connect
+		(at 127 154.94)
+		(uuid "f0841f4a-25e3-4bc8-b492-c5da502ee2c4")
+	)
+	(no_connect
 		(at 50.8 156.21)
 		(uuid "f11a20c4-cff5-449c-956f-8814b6bb8848")
 	)
@@ -2715,12 +2977,16 @@
 		(uuid "f7bc537c-b5f1-4aab-967b-3a813b237e8e")
 	)
 	(no_connect
+		(at 139.7 165.1)
+		(uuid "f910a544-cc66-4249-a82c-2f1989f1a32a")
+	)
+	(no_connect
 		(at 127 172.72)
 		(uuid "fe7b11fc-7f4c-4447-9d03-6b8a36925b53")
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 146.05 45.72)
+			(xy 45.72 45.72) (xy 152.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 76.2) (xy 104.14 76.2)
+			(xy 96.52 76.2) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2750,13 +3016,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 118.11 50.8)
+			(xy 45.72 50.8) (xy 124.46 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e9c4e26-c84c-4ab0-97f2-210be786055b")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa0c690-783a-4d59-8ea0-32b766837bbb")
 	)
 	(wire
 		(pts
@@ -2770,7 +3046,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 73.66) (xy 90.17 76.2)
+			(xy 96.52 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a61a38-fe13-4137-a872-22bf4291b3b1")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 96.52 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 66.04)
+			(xy 138.43 48.26) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 118.11 76.2)
+			(xy 110.49 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +3086,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 48.26 63.5)
+			(xy 48.26 76.2) (xy 54.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c07743c-3003-4f63-ac49-65d8568279e6")
+	)
+	(wire
+		(pts
+			(xy 54.61 66.04) (xy 54.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 76.2) (xy 146.05 76.2)
+			(xy 138.43 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 76.2 76.2)
+			(xy 82.55 73.66) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 62.23 76.2)
+			(xy 68.58 73.66) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +3136,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 73.66)
+			(xy 138.43 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b244034-e383-4d63-8217-33d6900e7f25")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 132.08 76.2)
+			(xy 138.43 73.66) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 48.26 76.2)
+			(xy 54.61 73.66) (xy 54.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 76.2 66.04)
+			(xy 82.55 58.42) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2880,17 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bd4bf53-3a66-482d-8150-9657c44dbbb6")
-	)
-	(wire
-		(pts
-			(xy 118.11 66.04) (xy 118.11 50.8)
+			(xy 124.46 66.04) (xy 124.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 132.08 76.2)
+			(xy 124.46 76.2) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2910,23 +3206,53 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 76.2) (xy 48.26 78.74)
+			(xy 45.72 66.04) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "657e572d-76a3-491e-95d8-6b8766fe48c6")
+		(uuid "61aefabf-30e9-48e7-b7af-a13009dceda4")
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 90.17 76.2)
+			(xy 48.26 66.04) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a19ea9-b650-48aa-b1a0-87a2423bb2be")
+	)
+	(wire
+		(pts
+			(xy 82.55 76.2) (xy 96.52 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "662ae926-9d02-445f-ac96-17b0417d7f03")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d440e5-9428-4216-b478-866ca6e97f8b")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dee9066-9cb1-45e7-87b2-20738b624500")
 	)
 	(wire
 		(pts
@@ -2940,17 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 165.1 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8275b9f5-9484-4adb-8ff5-d0620f1957d1")
-	)
-	(wire
-		(pts
-			(xy 146.05 45.72) (xy 146.05 66.04)
+			(xy 152.4 45.72) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2960,17 +3276,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 63.5) (xy 165.1 63.5)
+			(xy 152.4 45.72) (xy 165.1 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85886249-babb-4b85-a7c5-f7f2ccbe9fa2")
+		(uuid "86c77c46-3bb2-48fa-a110-6bdec98f8f95")
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 76.2)
+			(xy 110.49 73.66) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2990,17 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 165.1 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "963c7217-2b22-4bae-a06f-efc1c21c0211")
-	)
-	(wire
-		(pts
-			(xy 62.23 76.2) (xy 76.2 76.2)
+			(xy 68.58 76.2) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +3316,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 55.88) (xy 90.17 55.88)
+			(xy 54.61 76.2) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1b99fb-594e-49d3-bf14-9ed0498f3fc0")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 48.26 63.5)
+			(xy 45.72 63.5) (xy 54.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3037,16 +3353,6 @@
 			(type default)
 		)
 		(uuid "a71c8999-018f-4a4e-877b-9f3d0a5868d7")
-	)
-	(wire
-		(pts
-			(xy 104.14 53.34) (xy 165.1 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7883bda-9e29-4514-96e8-790cbbcae55a")
 	)
 	(wire
 		(pts
@@ -3070,17 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 165.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cb74fb-89bb-463c-bba6-f796179d19be")
-	)
-	(wire
-		(pts
-			(xy 90.17 55.88) (xy 90.17 66.04)
+			(xy 96.52 55.88) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 53.34) (xy 104.14 53.34)
+			(xy 45.72 53.34) (xy 110.49 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 62.23 66.04)
+			(xy 68.58 60.96) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 66.04)
+			(xy 110.49 53.34) (xy 110.49 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 146.05 76.2)
+			(xy 152.4 73.66) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3130,17 +3426,27 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 165.1 55.88)
+			(xy 54.61 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5eea766-88c6-4368-a5ce-603d364a9183")
+		(uuid "dbd3e839-0ad2-46f9-adeb-6d1f20cda6ba")
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 132.08 48.26)
+			(xy 68.58 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd6596e-cbc9-435b-8a00-8fb7907628bb")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 138.43 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3150,17 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 45.72) (xy 165.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a89f35-a3c5-4e27-a4bb-40418a8397f0")
-	)
-	(wire
-		(pts
-			(xy 45.72 60.96) (xy 62.23 60.96)
+			(xy 45.72 60.96) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 76.2) (xy 62.23 76.2)
+			(xy 54.61 76.2) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 58.42) (xy 76.2 58.42)
+			(xy 45.72 58.42) (xy 82.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3197,72 +3493,6 @@
 			(type default)
 		)
 		(uuid "ffe4a421-591b-4840-a5e9-f7d08575b413")
-	)
-	(global_label "DI_3"
-		(shape input)
-		(at 127 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e525321-789b-49fb-8829-7f428b708e02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO_1"
-		(shape input)
-		(at 139.7 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c7483d9-88d4-464d-9c6b-4917fd73b0be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DI_7"
-		(shape input)
-		(at 127 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c8bcf89-5937-403c-a1b3-42cac66efe2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "DI_IN5"
 		(shape input)
@@ -3286,9 +3516,9 @@
 			)
 		)
 	)
-	(global_label "DO_0"
+	(global_label "DI_3"
 		(shape input)
-		(at 139.7 147.32 0)
+		(at 63.5 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3296,9 +3526,9 @@
 			)
 			(justify left)
 		)
-		(uuid "34c4638d-58a1-4d4e-82c0-46219d457b8c")
+		(uuid "2b0488f7-6eb9-4c9a-987d-efb0e93b63e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 147.32 0)
+			(at 70.5371 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,9 +3538,9 @@
 			)
 		)
 	)
-	(global_label "DO_7"
+	(global_label "DI_7"
 		(shape input)
-		(at 139.7 165.1 0)
+		(at 63.5 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3318,31 +3548,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3569997d-fbc6-4cc0-aff9-4d0d1da8b8d6")
+		(uuid "3905869a-0d9f-4259-95ff-51b10106e7e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO_2"
-		(shape input)
-		(at 139.7 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d167438-67c0-4737-baa4-78ee8b167cdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 152.4 0)
+			(at 70.5371 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,28 +3582,6 @@
 			)
 		)
 	)
-	(global_label "DI_5"
-		(shape input)
-		(at 127 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42894ceb-e56d-43ef-8b01-d6fac60a4b8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DI_IN2"
 		(shape input)
 		(at 165.1 50.8 0)
@@ -3418,9 +3604,9 @@
 			)
 		)
 	)
-	(global_label "DO_3"
+	(global_label "DI_0"
 		(shape input)
-		(at 139.7 154.94 0)
+		(at 63.5 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3428,53 +3614,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4b14d06b-56eb-41ab-80c5-7efdf474d9f7")
+		(uuid "50fba630-8bf9-4a95-8a21-2b1b02115dc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO_4"
-		(shape input)
-		(at 139.7 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c5ed3d1-2d9d-4d50-8d5e-b7e9e68ad71e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO_5"
-		(shape input)
-		(at 139.7 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e1986c5-cc78-4f73-9e55-454ca276105b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 160.02 0)
+			(at 70.5371 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,46 +3648,24 @@
 			)
 		)
 	)
-	(global_label "DI_2"
+	(global_label "DI_5"
 		(shape input)
-		(at 127 134.62 180)
+		(at 63.5 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "629f59e2-2101-4ee0-b419-76de68d5495f")
+		(uuid "717cd361-f050-418f-9355-5ce3aa44bf4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 134.62 0)
+			(at 70.5371 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AO_0"
-		(shape input)
-		(at 127 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6bfb0958-71e0-4112-96ea-3fb5e23c4524")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.4186 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3572,9 +3692,9 @@
 			)
 		)
 	)
-	(global_label "UART6_TX"
+	(global_label "DI_2"
 		(shape input)
-		(at 139.7 167.64 0)
+		(at 63.5 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3582,124 +3702,14 @@
 			)
 			(justify left)
 		)
-		(uuid "8d36ab82-8e41-47c1-a0e8-ba534b071097")
+		(uuid "93859b74-474c-4c5d-852b-56240f44e8ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.6961 167.64 0)
+			(at 70.5371 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DO_6"
-		(shape input)
-		(at 139.7 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ea4f278-cdd5-4612-959a-2105df8e65ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART6_RX"
-		(shape input)
-		(at 139.7 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92af5d11-b0ef-4cda-a436-99d062e25465")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.9985 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DI_1"
-		(shape input)
-		(at 127 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8e8f38e-f32c-4a19-8844-d03c528754f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DI_0"
-		(shape input)
-		(at 127 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7e39579-dc2e-4d49-98d8-0de5bd53a2cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AVDD"
-		(shape input)
-		(at 127 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb2c0ee3-add4-4704-8d41-dc823af3b808")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.2976 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3726,9 +3736,9 @@
 			)
 		)
 	)
-	(global_label "CAN1_TX"
+	(global_label "DI_6"
 		(shape input)
-		(at 139.7 121.92 0)
+		(at 63.5 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3736,9 +3746,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cdd3ee7d-f4be-49af-a2c9-d2270bbf93ee")
+		(uuid "cafca70a-711e-4a30-8c87-6e5bf0a7a7d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.7285 121.92 0)
+			(at 70.5371 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,9 +3758,9 @@
 			)
 		)
 	)
-	(global_label "AI_1"
+	(global_label "DI_1"
 		(shape input)
-		(at 139.7 134.62 0)
+		(at 63.5 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3758,53 +3768,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cf9a1d95-19c4-402f-b513-d03e28ec9660")
+		(uuid "dd5a60dd-810d-4836-a5bf-66937b794528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5557 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AI_0"
-		(shape input)
-		(at 139.7 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d16c5caa-404f-4c25-bef2-b6436f310b68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5557 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AVDD"
-		(shape input)
-		(at 139.7 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1caa3f4-096d-4b33-8f77-1b920bc688d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4024 124.46 0)
+			(at 70.5371 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,97 +3824,9 @@
 			)
 		)
 	)
-	(global_label "AGND"
-		(shape input)
-		(at 127 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4040705-e56c-43d3-b742-9a4444b70478")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0557 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AO_1"
-		(shape input)
-		(at 139.7 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f53465bc-2c7f-40d8-ba2e-c3f5eaa51aaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.2814 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DI_4"
 		(shape input)
-		(at 127 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f90f136e-d4f0-4055-9756-3aa5e495bcbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DI_6"
-		(shape input)
-		(at 127 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa056137-c60d-43ed-9b6c-57e70c33c47a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN1_RX"
-		(shape input)
-		(at 139.7 119.38 0)
+		(at 63.5 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3956,9 +3834,9 @@
 			)
 			(justify left)
 		)
-		(uuid "fdf3cb92-d695-44c2-be39-cbb306d30df3")
+		(uuid "e45e4ffa-5777-4fcb-b881-0919180319a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.0309 119.38 0)
+			(at 70.5371 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4219,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 132.08 69.85 270)
+		(at 138.43 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4350,7 +4228,7 @@
 		(fields_autoplaced yes)
 		(uuid "12bc79f4-7b37-4e4e-8ce3-89042eb9695d")
 		(property "Reference" "D23"
-			(at 134.62 68.5799 90)
+			(at 140.97 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4237,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 134.62 71.1199 90)
+			(at 140.97 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 127 69.85 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4255,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 132.08 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4264,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 132.08 69.85 0)
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4273,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 132.08 69.85 90)
+			(at 138.43 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4282,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 132.08 69.85 90)
+			(at 138.43 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4442,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 104.14 69.85 270)
+		(at 110.49 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4573,7 +4451,7 @@
 		(fields_autoplaced yes)
 		(uuid "45b49e67-69cc-40b8-abec-77ab70331704")
 		(property "Reference" "D21"
-			(at 106.68 68.5799 90)
+			(at 113.03 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4460,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 106.68 71.1199 90)
+			(at 113.03 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4469,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 99.06 69.85 0)
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4478,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 104.14 68.58 0)
+			(at 110.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4487,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 104.14 69.85 0)
+			(at 110.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4496,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 104.14 69.85 90)
+			(at 110.49 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4505,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 104.14 69.85 90)
+			(at 110.49 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,111 +4523,6 @@
 			(project "digital_input"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/eebddd9c-e619-42e1-ad9b-cb9bcaeb71d8"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 40.64 53.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e4f7bc-4689-40fb-8071-7199f331ca16")
-		(property "Reference" "J1"
-			(at 40.64 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIGITAL INPUT"
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:1725711"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725711"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Phoenix-Contact/1725711?qs=W3wJikR1%252BS7n1cN8b%252BRI%2FQ%3D%3D"
-			(at 40.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf7a885c-d456-4352-8a9b-3da3c0b2cf3a")
-		)
-		(pin "3"
-			(uuid "f3d38b73-a2f6-4721-9996-5a7cf9c47e64")
-		)
-		(pin "4"
-			(uuid "ee0ae32a-7661-4072-b0a5-31bf8e318ce0")
-		)
-		(pin "8"
-			(uuid "6bf7ffd0-e822-466c-8468-89fe55efdd45")
-		)
-		(pin "5"
-			(uuid "c63ea424-33fa-4961-b93e-b3a67577f8c3")
-		)
-		(pin "7"
-			(uuid "d29ba85f-162c-4d73-b7e8-030d51275fe5")
-		)
-		(pin "1"
-			(uuid "9b5bc0fc-d8d2-44be-a073-50b974d16884")
-		)
-		(pin "6"
-			(uuid "7dd551b7-2634-40c8-a900-c0abca29e577")
-		)
-		(instances
-			(project "digital_input"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/eebddd9c-e619-42e1-ad9b-cb9bcaeb71d8"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4766,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 146.05 69.85 270)
+		(at 152.4 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5002,7 +4775,7 @@
 		(fields_autoplaced yes)
 		(uuid "6460fd96-e90e-49ba-9eb0-c11bed03bde3")
 		(property "Reference" "D24"
-			(at 148.59 68.5799 90)
+			(at 154.94 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +4784,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 148.59 71.1199 90)
+			(at 154.94 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4793,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 140.97 69.85 0)
+			(at 147.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 146.05 68.58 0)
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +4811,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 146.05 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4820,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 146.05 69.85 90)
+			(at 152.4 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +4829,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 146.05 69.85 90)
+			(at 152.4 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,17 +4989,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 78.74 0)
+		(lib_id "power:GNDREF")
+		(at 54.61 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9de7c475-52f6-4286-8af3-7c034618b3c3")
+		(uuid "b0873de5-b093-4f71-a14b-be1d08ae8004")
 		(property "Reference" "#PWR08"
-			(at 48.26 85.09 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,8 +5007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 48.26 83.82 0)
+		(property "Value" "GNDREF"
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 78.74 0)
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 78.74 0)
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,8 +5033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5043,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b588f96f-f57a-48d1-a3e7-4146d9cdac0f")
+			(uuid "dd8cf324-080d-47bc-8a7a-d176e84b3df3")
 		)
 		(instances
 			(project "digital_input"
@@ -5283,7 +5056,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 48.26 69.85 270)
+		(at 54.61 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5292,7 +5065,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1cc770f-734e-460c-acc8-18584b4ba081")
 		(property "Reference" "D17"
-			(at 50.8 68.5799 90)
+			(at 57.15 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5074,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 50.8 71.1199 90)
+			(at 57.15 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5083,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 43.18 69.85 0)
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 48.26 68.58 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5101,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 48.26 69.85 0)
+			(at 54.61 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5110,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 48.26 69.85 90)
+			(at 54.61 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5119,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 48.26 69.85 90)
+			(at 54.61 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5212,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 90.17 69.85 270)
+		(at 96.52 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5448,7 +5221,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0a6107f-edb7-4fff-bcec-97b88bed9a0f")
 		(property "Reference" "D20"
-			(at 92.71 68.5799 90)
+			(at 99.06 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5230,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 92.71 71.1199 90)
+			(at 99.06 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5239,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 85.09 69.85 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5248,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 90.17 68.58 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5257,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 90.17 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5266,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 90.17 69.85 90)
+			(at 96.52 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5275,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 90.17 69.85 90)
+			(at 96.52 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,8 +5367,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x09")
+		(at 40.64 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f1ee25-0776-4314-8bce-68c9c3439355")
+		(property "Reference" "J1"
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIGITAL INPUT"
+			(at 40.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLC_STM:1725724"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/507/9/phoenix_contact_1725724_en.pdf"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1725724"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Phoenix-Contact/1725724?qs=W3wJikR1%252BS5kmBpxVtLnow%3D%3D"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7d538852-43c8-426e-b557-1f9b8baff42e")
+		)
+		(pin "1"
+			(uuid "a3123bb4-90b8-4b4a-9443-2ba315bb8c4b")
+		)
+		(pin "8"
+			(uuid "2d2798ab-749b-4896-9cfd-0aa3e7e38c82")
+		)
+		(pin "5"
+			(uuid "cdd8b369-5a40-4a8d-a975-ef1e523bf39d")
+		)
+		(pin "4"
+			(uuid "98032dc1-eeec-4dae-904d-a589b0e28905")
+		)
+		(pin "3"
+			(uuid "a76ab078-a0f0-4daa-9883-598e3672874f")
+		)
+		(pin "2"
+			(uuid "d7fdb519-06f6-4434-bb97-5412cd280d99")
+		)
+		(pin "9"
+			(uuid "441a8865-9399-4be7-82b2-7a4506280777")
+		)
+		(pin "6"
+			(uuid "454cf228-1849-4ada-b21f-b0c34576b128")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/eebddd9c-e619-42e1-ad9b-cb9bcaeb71d8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 62.23 69.85 270)
+		(at 68.58 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5604,7 +5485,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc4ad38d-e16d-4db2-8cd9-1a48cfedd4a8")
 		(property "Reference" "D18"
-			(at 64.77 68.5799 90)
+			(at 71.12 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5494,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 64.77 71.1199 90)
+			(at 71.12 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 57.15 69.85 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 62.23 68.58 0)
+			(at 68.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5521,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 62.23 69.85 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5530,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 62.23 69.85 90)
+			(at 68.58 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5539,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 62.23 69.85 90)
+			(at 68.58 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5564,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 76.2 69.85 270)
+		(at 82.55 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5692,7 +5573,7 @@
 		(fields_autoplaced yes)
 		(uuid "e50bcc87-27a7-42ae-8db5-642f7e0b69a3")
 		(property "Reference" "D19"
-			(at 78.74 68.5799 90)
+			(at 85.09 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5582,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 78.74 71.1199 90)
+			(at 85.09 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5591,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 71.12 69.85 0)
+			(at 77.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 76.2 68.58 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5609,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 76.2 69.85 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5618,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 76.2 69.85 90)
+			(at 82.55 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5627,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 76.2 69.85 90)
+			(at 82.55 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 118.11 69.85 270)
+		(at 124.46 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5780,7 +5661,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea766d3b-cf90-443a-be6b-dcbe05c7262a")
 		(property "Reference" "D22"
-			(at 120.65 68.5799 90)
+			(at 127 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5670,7 @@
 			)
 		)
 		(property "Value" "SMA6L28A"
-			(at 120.65 71.1199 90)
+			(at 127 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5679,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 113.03 69.85 0)
+			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 118.11 68.58 0)
+			(at 124.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5697,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 118.11 69.85 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5706,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMA6L28A"
-			(at 118.11 69.85 90)
+			(at 124.46 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5715,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6L28A?qs=2FIyTMJ0hNlczLvhNN9N5w%3D%3D"
-			(at 118.11 69.85 90)
+			(at 124.46 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
