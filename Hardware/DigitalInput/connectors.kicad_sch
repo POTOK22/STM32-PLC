@@ -2590,6 +2590,17 @@
 		)
 		(uuid "dd1b7951-a30d-46a9-a0f7-b5c0dbf49404")
 	)
+	(text "DO\nLEFT:\nPC1, PC0, PD3, PG2, PG3, PE2, PE4, PE5\nRIGHT:\nPC4, PF5, PF4, PE8, PF10, PE7, PD14, PF14\n\nDI\nLEFT:\nPC2, PC3, PC0, PC1\n\nRIGHT:\nPC8, PC6, PC5, PB2 "
+		(exclude_from_sim no)
+		(at 170.18 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb08fdde-565f-4b65-bd01-13823925f90e")
+	)
 	(junction
 		(at 124.46 76.2)
 		(diameter 0)
