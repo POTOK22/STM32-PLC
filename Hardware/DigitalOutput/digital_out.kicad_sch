@@ -10,6 +10,191 @@
 		(company "Author: Grzegorz Potocki")
 	)
 	(lib_symbols
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -135,29 +320,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:CNY17-3"
+		(symbol "Isolator:VO615A-3"
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CNY17-3"
+			(property "Value" "VO615A-3"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -166,21 +349,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
+			(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
+			(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W9.53mm*"
+			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -207,7 +379,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "CNY17-3_0_1"
+			(property "ki_fp_filters" "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VO615A-3_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -221,7 +402,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.762)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -236,18 +417,6 @@
 						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
 						(width 0)
 						(type default)
 					)
@@ -260,7 +429,7 @@
 						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -269,7 +438,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
 						(width 0)
@@ -281,7 +450,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -293,7 +462,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 2.54) (xy 5.08 2.54)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
 						(width 0)
@@ -305,19 +486,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 -0.254) (xy 2.921 -2.286)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
 					)
 					(stroke
-						(width 0.3556)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.921 -1.143) (xy 4.064 0)
+						(xy 4.445 2.54) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0)
@@ -329,55 +510,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 -1.27) (xy 1.905 -1.27)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.921 -1.397) (xy 4.064 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.937 -2.413) (xy 3.683 -1.905) (xy 3.429 -2.159) (xy 3.937 -2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.064 0)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -388,7 +533,7 @@
 					)
 				)
 			)
-			(symbol "CNY17-3_1_1"
+			(symbol "VO615A-3_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -425,25 +570,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -454,25 +580,7 @@
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -490,7 +598,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1305,10 +1413,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 38.1 15.24)
-		(end 266.7 160.02)
+		(start 50.8 16.51)
+		(end 241.3 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -1320,7 +1529,7 @@
 	)
 	(text "Galvanic isolation"
 		(exclude_from_sim no)
-		(at 156.21 151.13 90)
+		(at 167.64 156.21 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,7 +1539,7 @@
 	)
 	(text "DIGITAL OUTPUTS"
 		(exclude_from_sim no)
-		(at 38.1 19.05 0)
+		(at 50.8 20.32 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1343,266 +1552,268 @@
 		(uuid "db8f46e5-e0f6-4e72-a756-150310250d11")
 	)
 	(junction
-		(at 123.19 107.95)
+		(at 154.94 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00a4d865-0d99-46c5-8522-414e91585dd7")
+		(uuid "0253ce9c-4288-4b27-b679-a090f24bc4c4")
 	)
 	(junction
-		(at 123.19 148.59)
+		(at 97.79 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "040fe33b-e67b-4365-8e06-53ce6d4c8a94")
+		(uuid "03da1007-d249-4e0a-8d29-4ba9e8f38496")
 	)
 	(junction
-		(at 143.51 138.43)
+		(at 154.94 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07e221bf-73f6-4312-bab0-1f577fa7ebf0")
 	)
 	(junction
-		(at 191.77 77.47)
+		(at 203.2 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07fc6f2c-05f4-4a5e-ba14-1faa545c97ae")
 	)
 	(junction
-		(at 92.71 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09453d23-1bd9-47e4-940f-68ef3a594a85")
-	)
-	(junction
-		(at 172.72 72.39)
+		(at 184.15 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16f34a1d-0b16-4b6a-b420-0056ab74e14d")
 	)
 	(junction
-		(at 72.39 31.75)
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "21a0a1bc-eb48-4db0-8b66-1dee6e571f45")
+		(uuid "1a076581-7702-494f-a77d-c66fc1e165f3")
 	)
 	(junction
-		(at 92.71 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23ebcdd8-10fd-4058-b23b-376c4a12d4e3")
-	)
-	(junction
-		(at 191.77 123.19)
+		(at 203.2 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27eaa2d3-6944-4847-90f2-c41f70f650d5")
 	)
 	(junction
-		(at 191.77 138.43)
+		(at 132.08 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ef7f7a-eba3-48a4-a3ec-538a931fbf69")
+	)
+	(junction
+		(at 120.65 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3025c8f2-82af-42a9-9f0c-aa1947b324ff")
+	)
+	(junction
+		(at 203.2 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30334969-385e-4bed-9fa4-04b91edaa552")
 	)
 	(junction
-		(at 143.51 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30bdca78-3710-4b58-884f-7cf859887ea8")
-	)
-	(junction
-		(at 191.77 92.71)
+		(at 203.2 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "356eca40-6853-4c73-8e95-12151f782431")
 	)
 	(junction
-		(at 143.51 29.21)
+		(at 184.15 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cee21d6-c865-41f2-a75c-6cd4ca838e69")
+		(uuid "498bd502-1e10-4d28-a099-69e55e10c262")
 	)
 	(junction
-		(at 143.51 90.17)
+		(at 203.2 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "406edb78-443b-4b60-9230-061b36ca3996")
+		(uuid "5395bce0-c6c1-4485-9199-e02a8eb2502f")
 	)
 	(junction
-		(at 102.87 148.59)
+		(at 154.94 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41c7eab6-f148-4d6d-b447-5030f8e7f192")
+		(uuid "542209ed-9692-487d-9774-43097927fa96")
 	)
 	(junction
-		(at 172.72 118.11)
+		(at 74.93 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ccbac3-6409-4230-bea8-945d5c360ccf")
+	)
+	(junction
+		(at 71.12 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "568d462e-d52c-4082-8d31-052380fdfa5b")
+	)
+	(junction
+		(at 184.15 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "589dcf77-f36d-4fea-9271-0ede0878362b")
 	)
 	(junction
-		(at 172.72 87.63)
+		(at 184.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b2e29e0-ee5e-43ba-9e5c-f1d86110af2b")
 	)
 	(junction
-		(at 191.77 107.95)
+		(at 86.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6ec2c3-2cb6-493d-bbcd-81d2d1bd10cb")
+	)
+	(junction
+		(at 109.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8587f8-f726-4e9f-9a09-0fb5c1fa3f6f")
+	)
+	(junction
+		(at 109.22 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f92fb0-78dc-4e17-8162-b92fe1d6c1bd")
+	)
+	(junction
+		(at 203.2 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dc84fff-5b13-4bc4-b322-7d4569853e54")
 	)
 	(junction
-		(at 113.03 92.71)
+		(at 97.79 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e53b4aa-ebca-4746-8d46-d60e1ad81f0d")
+		(uuid "7a308beb-0321-413e-bf5e-b616d620ace2")
 	)
 	(junction
-		(at 143.51 148.59)
+		(at 154.94 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "878278b7-84e9-4cd7-9591-defdae96bcd5")
+		(uuid "85d4efe7-e72f-4c55-be7a-c472760f42d9")
 	)
 	(junction
-		(at 82.55 46.99)
+		(at 74.93 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8929ec08-651f-4603-bc83-ab64089abb25")
+		(uuid "92bc9035-2f49-4f88-aca2-60f9c415a41a")
 	)
 	(junction
-		(at 143.51 74.93)
+		(at 154.94 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d0b71c1-eead-4237-9f4e-7b5a0faa3df5")
+		(uuid "948a6d66-d434-4e45-93e8-92c9ff4a7cb3")
 	)
 	(junction
-		(at 133.35 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96f3d260-3ce0-4750-8d73-e4d96d8ed186")
-	)
-	(junction
-		(at 172.72 102.87)
+		(at 184.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35969f6-3359-4ece-8736-34131e92afea")
 	)
 	(junction
-		(at 191.77 46.99)
+		(at 120.65 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afbb1ed2-c7a9-4f6f-a922-1f414c3233c8")
+	)
+	(junction
+		(at 203.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13e761a-f80b-4b88-b685-a15c91132e34")
 	)
 	(junction
-		(at 172.72 41.91)
+		(at 184.15 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1ce4dd3-e5c8-4085-a3c4-264910b129dd")
 	)
 	(junction
-		(at 143.51 59.69)
+		(at 132.08 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c14cc82d-5454-4904-85b5-c6c05c2fa45c")
+		(uuid "b21c132e-4965-4e48-bfbb-ec9e25cff961")
 	)
 	(junction
-		(at 113.03 148.59)
+		(at 86.36 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c35483df-afce-4dc0-8181-94aa687e46f9")
+		(uuid "c4204301-88cd-4b2a-9c20-00fbc839b792")
 	)
 	(junction
-		(at 191.77 62.23)
+		(at 203.2 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c988033a-511d-46c7-9540-9c5bca86205e")
 	)
 	(junction
-		(at 172.72 26.67)
+		(at 154.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3716084-23c8-459d-8e53-32eda3cb6342")
+	)
+	(junction
+		(at 184.15 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7210169-d0e3-4ed3-b604-83db6bad2129")
 	)
 	(junction
-		(at 102.87 77.47)
+		(at 154.94 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d88d0bfa-bfde-4ac1-92b1-9e17167d157e")
+		(uuid "e2d5359e-6b81-4815-8744-4eda6db91394")
 	)
 	(junction
-		(at 143.51 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8e5f644-a681-4c1a-ae82-b79b49c13601")
-	)
-	(junction
-		(at 133.35 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0ea51af-a0a7-43cc-9892-aecfe2a09d02")
-	)
-	(junction
-		(at 143.51 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e1f67b-5e0c-4665-be16-f86a294ae63d")
-	)
-	(junction
-		(at 82.55 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3654f53-63bb-4b20-bfb0-db50b7e0ddc5")
-	)
-	(junction
-		(at 172.72 57.15)
+		(at 184.15 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecfd6c64-c74c-4426-95e2-ffec002f926e")
 	)
-	(no_connect
-		(at 147.32 133.35)
-		(uuid "2ec9df67-1c86-403a-a41b-c958e1c9a7e9")
+	(junction
+		(at 154.94 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f145ef3c-969d-4a09-8f6d-49722becd71e")
 	)
-	(no_connect
-		(at 147.32 57.15)
-		(uuid "4afc17c6-b899-4d0c-8b9e-9ac687deaada")
+	(junction
+		(at 143.51 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b286e6-5a8d-4f08-a06a-79b4370f74c5")
 	)
-	(no_connect
-		(at 147.32 41.91)
-		(uuid "601ad26f-3410-4f7d-96da-b425c57b93aa")
-	)
-	(no_connect
-		(at 147.32 87.63)
-		(uuid "8515ed52-beec-40c0-86ce-ca7272a90bb0")
-	)
-	(no_connect
-		(at 147.32 72.39)
-		(uuid "8d719ea2-10b4-4338-ba28-343c8a46d8b9")
-	)
-	(no_connect
-		(at 147.32 26.67)
-		(uuid "a539104a-8b07-42b4-ad66-c3dfb7f47f64")
-	)
-	(no_connect
-		(at 147.32 118.11)
-		(uuid "b948bd9e-2d1b-4177-8588-78cc61f6ca0e")
-	)
-	(no_connect
-		(at 147.32 102.87)
-		(uuid "fe7c7717-40ec-423a-9fdb-f44daff516ad")
+	(junction
+		(at 143.51 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8d9de57-02f3-4248-91c3-9a635dc53fc4")
 	)
 	(wire
 		(pts
-			(xy 143.51 146.05) (xy 143.51 148.59)
+			(xy 184.15 25.4) (xy 184.15 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05c7457e-5ecd-4b55-a8c4-bf59a6fdc878")
+		(uuid "01f147b1-9a3d-4c61-8d9a-a0a6a07c4f62")
 	)
 	(wire
 		(pts
-			(xy 162.56 46.99) (xy 175.26 46.99)
+			(xy 132.08 157.48) (xy 132.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041bae1f-03aa-47ce-b05b-3f1e820c3987")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 186.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 46.99) (xy 82.55 140.97)
+			(xy 86.36 50.8) (xy 86.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1622,17 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 148.59) (xy 143.51 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a8aa73c-ffe9-4ebe-894e-f7dc8a90eb13")
-	)
-	(wire
-		(pts
-			(xy 162.56 31.75) (xy 175.26 31.75)
+			(xy 173.99 35.56) (xy 186.69 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1843,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 143.51 120.65)
+			(xy 143.51 160.02) (xy 154.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1183a6ca-8edc-44ae-b442-bb5ea12a6571")
+	)
+	(wire
+		(pts
+			(xy 86.36 157.48) (xy 86.36 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1319a391-8c5e-471d-b814-dfa567025072")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 115.57) (xy 182.88 115.57)
+			(xy 191.77 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1662,17 +1883,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 148.59) (xy 133.35 148.59)
+			(xy 154.94 121.92) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18c5f71f-1c2a-4247-ae9f-567d5bca1115")
+		(uuid "177513db-d718-4124-8e1a-963cc7dba213")
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 102.87 140.97)
+			(xy 109.22 81.28) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1903,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 123.19) (xy 133.35 123.19)
+			(xy 154.94 45.72) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6aaa3b-2208-40fb-abff-13371ea376ec")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f72f2e7-6b48-4917-b555-42ed3da00591")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 143.51 127)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 118.11) (xy 165.1 118.11)
+			(xy 173.99 121.92) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1702,17 +1943,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 148.59) (xy 123.19 148.59)
+			(xy 68.58 160.02) (xy 71.12 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ff6c0a3-6e0c-48bb-9b14-71d4a6f18476")
+		(uuid "234cfa47-6237-413e-82b6-4716b03091b9")
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 143.51 105.41)
+			(xy 158.75 106.68) (xy 154.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 191.77 92.71)
+			(xy 203.2 81.28) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 143.51 44.45)
+			(xy 158.75 45.72) (xy 154.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1742,17 +1983,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 146.05) (xy 72.39 148.59)
+			(xy 109.22 81.28) (xy 158.75 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27ce53dd-4fac-4869-ab5b-1ca0cb706aa0")
+		(uuid "27907bb1-6311-4abf-9044-ec306ae713d2")
 	)
 	(wire
 		(pts
-			(xy 191.77 92.71) (xy 191.77 107.95)
+			(xy 203.2 96.52) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 191.77 62.23)
+			(xy 196.85 66.04) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 138.43) (xy 191.77 138.43)
+			(xy 196.85 142.24) (xy 203.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 123.19) (xy 191.77 123.19)
+			(xy 196.85 127) (xy 203.2 127)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +2033,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 133.35) (xy 172.72 133.35)
+			(xy 71.12 156.21) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307f735a-4c6b-4e70-bc5e-50b968db5e07")
+	)
+	(wire
+		(pts
+			(xy 181.61 137.16) (xy 184.15 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1802,17 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 146.05) (xy 102.87 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334a3940-b202-442d-bc11-b6fb53be1256")
-	)
-	(wire
-		(pts
-			(xy 60.96 31.75) (xy 72.39 31.75)
+			(xy 72.39 35.56) (xy 74.93 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 191.77 77.47)
+			(xy 196.85 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 39.37) (xy 182.88 39.37)
+			(xy 191.77 43.18) (xy 194.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 182.88 146.05)
+			(xy 191.77 149.86) (xy 194.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 123.19 107.95)
+			(xy 72.39 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 175.26 123.19)
+			(xy 173.99 127) (xy 186.69 127)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +2113,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 46.99) (xy 191.77 62.23)
+			(xy 86.36 160.02) (xy 97.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c41ad8-65e6-4ff2-98dd-9bc7bfbc5db8")
+	)
+	(wire
+		(pts
+			(xy 203.2 50.8) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1882,17 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 143.51 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3decdea1-e804-49a0-a922-fe109c647bd2")
-	)
-	(wire
-		(pts
-			(xy 187.96 146.05) (xy 213.36 146.05)
+			(xy 199.39 149.86) (xy 224.79 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1902,27 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 146.05) (xy 113.03 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "413d31f0-aee4-48db-93b6-d7944b66c755")
-	)
-	(wire
-		(pts
-			(xy 92.71 146.05) (xy 92.71 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414f829b-5bf8-4787-9b37-167875cfb609")
-	)
-	(wire
-		(pts
-			(xy 162.56 72.39) (xy 165.1 72.39)
+			(xy 173.99 76.2) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1932,17 +2153,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 147.32 77.47)
+			(xy 109.22 157.48) (xy 109.22 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4480d867-c46d-45cc-aad6-3d30a7a04af1")
+		(uuid "45ab5790-177a-428b-8c35-778023719715")
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 143.51 135.89)
+			(xy 158.75 137.16) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1952,17 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 148.59) (xy 82.55 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49ed32b0-1448-42da-8b8e-2e56f66983e2")
-	)
-	(wire
-		(pts
-			(xy 162.56 133.35) (xy 165.1 133.35)
+			(xy 173.99 137.16) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 82.55 46.99)
+			(xy 72.39 50.8) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 62.23) (xy 92.71 140.97)
+			(xy 97.79 66.04) (xy 97.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +2203,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.09) (xy 213.36 85.09)
+			(xy 199.39 88.9) (xy 224.79 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2213,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 69.85) (xy 213.36 69.85)
+			(xy 109.22 160.02) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5ff01b-2d09-4cc6-87f5-466963c7a144")
+	)
+	(wire
+		(pts
+			(xy 199.39 73.66) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2233,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 113.03 140.97)
+			(xy 74.93 149.86) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565a2e3f-aad7-4058-ab70-e286e2046b5d")
+	)
+	(wire
+		(pts
+			(xy 86.36 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acd907f-f270-4111-adc0-53ef1e998b1e")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 154.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfa2815-031f-4ba9-8d7a-7087a8744ad5")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2273,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 115.57) (xy 213.36 115.57)
+			(xy 120.65 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3f43e1-3916-4e21-b8d4-f05b3e0b7a29")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 224.79 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2293,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 172.72 57.15)
+			(xy 154.94 149.86) (xy 154.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5b885d-4fba-4b27-a5ab-699dfbe5dedb")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 203.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5feaddb7-6114-4957-bcdf-5dfa13da9e72")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.96) (xy 184.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2042,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 165.1 87.63)
+			(xy 173.99 91.44) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2052,17 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 29.21) (xy 143.51 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2f3dfb-bea1-4c2d-844a-549269e56ab8")
-	)
-	(wire
-		(pts
-			(xy 172.72 41.91) (xy 172.72 57.15)
+			(xy 184.15 45.72) (xy 184.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2343,27 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 26.67) (xy 172.72 41.91)
+			(xy 97.79 157.48) (xy 97.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc6a13d-5867-437f-af46-21a43d4836a9")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700782c0-8dba-4080-82d0-48ecfdb4c20c")
+	)
+	(wire
+		(pts
+			(xy 184.15 30.48) (xy 184.15 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 57.15) (xy 172.72 72.39)
+			(xy 184.15 60.96) (xy 184.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 175.26 77.47)
+			(xy 173.99 81.28) (xy 186.69 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2102,27 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 147.32 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d73033-929e-4774-84df-fcb0adbec2c5")
-	)
-	(wire
-		(pts
-			(xy 143.51 59.69) (xy 143.51 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77472b2f-55e3-41bd-9b61-a10d2b38f57f")
-	)
-	(wire
-		(pts
-			(xy 162.56 57.15) (xy 165.1 57.15)
+			(xy 173.99 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 191.77 123.19)
+			(xy 203.2 111.76) (xy 203.2 127)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 26.67) (xy 143.51 29.21)
+			(xy 154.94 22.86) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 113.03 92.71)
+			(xy 72.39 96.52) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2162,17 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 147.32 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850a3d86-2a4c-4eb8-bbd8-95b7a19edf0a")
-	)
-	(wire
-		(pts
-			(xy 143.51 138.43) (xy 143.51 140.97)
+			(xy 154.94 142.24) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2443,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 102.87) (xy 172.72 118.11)
+			(xy 97.79 160.02) (xy 109.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c6a088-5e56-4c52-a23e-ce8714e13d75")
+	)
+	(wire
+		(pts
+			(xy 184.15 106.68) (xy 184.15 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 175.26 62.23)
+			(xy 173.99 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2202,17 +2473,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 90.17) (xy 143.51 105.41)
+			(xy 143.51 157.48) (xy 143.51 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a02e564-b815-4b1b-a242-3e2ad2613fe2")
+		(uuid "8a195960-b88a-4906-842a-53fe8621c79b")
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 182.88 54.61)
+			(xy 191.77 58.42) (xy 194.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2222,17 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 148.59) (xy 143.51 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2883bb-1761-4c12-981f-25dea3f7eec7")
-	)
-	(wire
-		(pts
-			(xy 187.96 54.61) (xy 213.36 54.61)
+			(xy 199.39 58.42) (xy 224.79 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 72.39) (xy 172.72 72.39)
+			(xy 181.61 76.2) (xy 184.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2513,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 118.11) (xy 172.72 118.11)
+			(xy 109.22 149.86) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91499330-6848-491d-a41e-89b9ff3f6679")
+	)
+	(wire
+		(pts
+			(xy 181.61 121.92) (xy 184.15 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 175.26 92.71)
+			(xy 173.99 96.52) (xy 186.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2543,47 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 102.87) (xy 172.72 102.87)
+			(xy 120.65 149.86) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959e66af-d00b-4db4-ae66-7868c77a65d8")
+	)
+	(wire
+		(pts
+			(xy 74.93 157.48) (xy 74.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96be5671-5a53-4af3-9eec-6869f6d26610")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b8ee0b-ba8f-4ee4-9534-bd1dee80227f")
+	)
+	(wire
+		(pts
+			(xy 74.93 35.56) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a83aa5e-cd39-4bc2-af01-8be02b955c94")
+	)
+	(wire
+		(pts
+			(xy 181.61 106.68) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 62.23) (xy 191.77 77.47)
+			(xy 203.2 66.04) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2292,17 +2603,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 147.32 92.71)
+			(xy 132.08 160.02) (xy 143.51 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b754c2f-edf7-4b98-a227-fc4b1a5120ce")
+		(uuid "9c78ff39-f344-476c-98c2-1a7648071a00")
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 143.51 59.69)
+			(xy 158.75 60.96) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 138.43) (xy 191.77 149.86)
+			(xy 203.2 142.24) (xy 203.2 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2322,27 +2633,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 146.05) (xy 133.35 148.59)
+			(xy 120.65 160.02) (xy 132.08 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a484ba24-2361-4ef1-91c2-83b94773dfab")
+		(uuid "a295c746-fc03-4dcf-b7be-83759b51b32f")
 	)
 	(wire
 		(pts
-			(xy 82.55 146.05) (xy 82.55 148.59)
+			(xy 154.94 25.4) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6530863-9ec5-435d-b63a-451432354f1e")
+		(uuid "a43c3712-5f2e-4c40-aee8-f1ae5297af86")
 	)
 	(wire
 		(pts
-			(xy 170.18 41.91) (xy 172.72 41.91)
+			(xy 181.61 45.72) (xy 184.15 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 175.26 107.95)
+			(xy 173.99 111.76) (xy 186.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 213.36 130.81)
+			(xy 199.39 134.62) (xy 224.79 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2372,17 +2683,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 62.23) (xy 147.32 62.23)
+			(xy 154.94 60.96) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae2e7c2f-1b71-4ef4-b9fa-4e05645d514a")
+		(uuid "ace6f8a9-7775-4f10-8be7-6e514ddbb5d1")
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 213.36 100.33)
+			(xy 199.39 104.14) (xy 224.79 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 143.51 90.17)
+			(xy 158.75 91.44) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 26.67) (xy 172.72 26.67)
+			(xy 181.61 30.48) (xy 184.15 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2723,27 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 172.72 102.87)
+			(xy 132.08 149.86) (xy 132.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d05b16-84ed-4215-b44c-2ede69b412a0")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52ae85a-d2d9-42ed-9ca4-d5ae5d9aaa15")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2753,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 123.19) (xy 191.77 138.43)
+			(xy 143.51 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6ca43d-9808-4776-a3af-e2932c189868")
+	)
+	(wire
+		(pts
+			(xy 203.2 127) (xy 203.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 165.1 41.91)
+			(xy 173.99 45.72) (xy 176.53 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 138.43) (xy 143.51 138.43)
+			(xy 72.39 142.24) (xy 154.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2452,17 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 148.59) (xy 113.03 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfced830-0940-4f50-8165-0b727c1b02ff")
-	)
-	(wire
-		(pts
-			(xy 162.56 138.43) (xy 175.26 138.43)
+			(xy 173.99 142.24) (xy 186.69 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2803,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 182.88 100.33)
+			(xy 71.12 160.02) (xy 74.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2977b98-99fd-4198-97e0-993225a7f78e")
+	)
+	(wire
+		(pts
+			(xy 191.77 104.14) (xy 194.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 133.35 140.97)
+			(xy 143.51 127) (xy 143.51 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2833,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 24.13) (xy 172.72 26.67)
+			(xy 132.08 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54ece4e-9f9c-41ee-8a44-5422f51ebf9d")
+	)
+	(wire
+		(pts
+			(xy 184.15 22.86) (xy 184.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2502,17 +2853,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 147.32 31.75)
+			(xy 154.94 106.68) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6b84a45-6a4a-4069-b598-430ae9f892ef")
+		(uuid "c70541c7-527d-48e3-8693-a9727ceca6da")
 	)
 	(wire
 		(pts
-			(xy 162.56 26.67) (xy 165.1 26.67)
+			(xy 173.99 30.48) (xy 176.53 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2522,17 +2873,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 46.99) (xy 147.32 46.99)
+			(xy 74.93 160.02) (xy 86.36 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdbfb314-2a77-47a1-99fd-5c07274c44d1")
+		(uuid "ca126f26-9260-4743-bccb-fe0f1681539b")
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 72.39 140.97)
+			(xy 74.93 35.56) (xy 74.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 182.88 130.81)
+			(xy 191.77 134.62) (xy 194.31 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 31.75) (xy 191.77 46.99)
+			(xy 203.2 35.56) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2562,57 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 146.05) (xy 123.19 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24bce89-97ef-4e2d-a9f9-a03edee1efa6")
-	)
-	(wire
-		(pts
-			(xy 143.51 105.41) (xy 143.51 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d43c4248-0c6a-40d1-819b-a5949b810fb8")
-	)
-	(wire
-		(pts
-			(xy 143.51 44.45) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d612112f-79b2-421f-ba07-2fb0566fc444")
-	)
-	(wire
-		(pts
-			(xy 82.55 148.59) (xy 92.71 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d686adca-ad60-41bb-b274-6142510bca96")
-	)
-	(wire
-		(pts
-			(xy 143.51 74.93) (xy 143.51 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f5ea84-3bda-4251-97fa-7de385fd357e")
-	)
-	(wire
-		(pts
-			(xy 162.56 102.87) (xy 165.1 102.87)
+			(xy 173.99 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 172.72 87.63)
+			(xy 181.61 91.44) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 77.47) (xy 102.87 77.47)
+			(xy 72.39 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 62.23) (xy 92.71 62.23)
+			(xy 72.39 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 107.95) (xy 191.77 107.95)
+			(xy 196.85 111.76) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2963,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 85.09) (xy 182.88 85.09)
+			(xy 69.85 156.21) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19aff73-4d87-4722-83fd-6a7f9e062000")
+	)
+	(wire
+		(pts
+			(xy 191.77 88.9) (xy 194.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2983,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 29.21) (xy 143.51 29.21)
+			(xy 97.79 149.86) (xy 97.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2318bee-bffd-4aa9-b5d2-fe7296566c40")
+	)
+	(wire
+		(pts
+			(xy 158.75 30.48) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 143.51 138.43)
+			(xy 158.75 142.24) (xy 154.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +3013,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 69.85) (xy 182.88 69.85)
+			(xy 143.51 149.86) (xy 143.51 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e819aedc-6d17-4669-85e9-0b0171aac06a")
+	)
+	(wire
+		(pts
+			(xy 191.77 73.66) (xy 194.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 213.36 39.37)
+			(xy 199.39 43.18) (xy 224.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 172.72 133.35)
+			(xy 184.15 121.92) (xy 184.15 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2722,17 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 148.59) (xy 102.87 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef05cf6e-b816-433a-af46-9573d0a53d73")
-	)
-	(wire
-		(pts
-			(xy 147.32 74.93) (xy 143.51 74.93)
+			(xy 158.75 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 123.19 140.97)
+			(xy 132.08 111.76) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 172.72 87.63)
+			(xy 184.15 76.2) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +3083,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 46.99) (xy 191.77 46.99)
+			(xy 86.36 149.86) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f430b09f-2656-4680-bd0e-2f80299e43a3")
+	)
+	(wire
+		(pts
+			(xy 196.85 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +3103,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 15.24) (xy 154.94 160.02)
+			(xy 166.37 16.51) (xy 166.37 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 31.75) (xy 191.77 31.75)
+			(xy 196.85 35.56) (xy 203.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +3123,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 191.77 92.71)
+			(xy 154.94 30.48) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f5b849-19b5-4c48-a719-119799095c93")
+	)
+	(wire
+		(pts
+			(xy 196.85 96.52) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2800,169 +3141,681 @@
 		)
 		(uuid "fc4cfb90-9a1e-46b9-95fe-05a70b03636a")
 	)
-	(label "DI_OUT7"
-		(at 60.96 138.43 0)
+	(label "DO_4_R"
+		(at 120.65 152.4 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "19a0e09c-fb90-44a0-b788-baaf4c8c3968")
+		(uuid "0127c1a6-0a79-4d2d-9bdf-87c36df19f02")
 	)
-	(label "DI_OUT1"
-		(at 60.96 46.99 0)
+	(label "Q1_G"
+		(at 191.77 43.18 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "1f712797-26df-4791-b628-e2195c38eb08")
+		(uuid "05b7be73-4eaf-478e-a2ac-8d75e0300703")
 	)
-	(label "DO3"
-		(at 213.36 85.09 180)
+	(label "OPT8_R"
+		(at 173.99 137.16 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56b0cf0f-6a53-4348-8204-6be04e6d01ef")
-	)
-	(label "DO1"
-		(at 213.36 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58894d27-4759-471a-abfe-b13bcf44b87a")
-	)
-	(label "DO2"
-		(at 213.36 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58e8dde3-3042-468e-bd21-4207662810b2")
-	)
-	(label "DI_OUT5"
-		(at 60.96 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "782cceba-8cd6-45c0-b185-19a2112a2e6e")
+		(uuid "096893c0-eda1-455d-a4d9-7ac3d6255f4b")
 	)
-	(label "DO7"
-		(at 213.36 146.05 180)
+	(label "D0_2_R"
+		(at 97.79 152.4 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "82cb9617-82e8-47d0-bb18-af8b22dc9bbb")
-	)
-	(label "DO5"
-		(at 213.36 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87ca1e3c-b3f8-473e-90e3-cad5a6fca746")
-	)
-	(label "DI_OUT3"
-		(at 60.96 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "87e9d7c8-0b17-4433-8fc2-366bb02b1ea9")
+		(uuid "203623b0-e0f0-4f82-91c5-4063815c4882")
 	)
-	(label "DO4"
-		(at 213.36 100.33 180)
+	(label "OPT3_R"
+		(at 173.99 60.96 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5b21c10-8482-4812-bceb-ab807bcc5258")
-	)
-	(label "DO6"
-		(at 213.36 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c40e83ea-96ae-47d7-91fd-b85c13fc8596")
-	)
-	(label "DI_OUT2"
-		(at 60.96 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "d1cb6ae3-cb6c-4200-a6a8-4ff7178f594b")
+		(uuid "235dab5c-aa56-4f81-9bf3-ef74e3a7b177")
 	)
-	(label "DO0"
-		(at 213.36 39.37 180)
+	(label "Q4_G"
+		(at 191.77 88.9 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4c4826b-ad81-4d04-acca-fb433f0d1de4")
-	)
-	(label "DI_OUT6"
-		(at 60.96 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "e3e54e23-01cc-44be-aa5f-06b6cb1bed6f")
+		(uuid "2428548a-78b6-4224-abd8-17be008ee1f2")
 	)
-	(label "DI_OUT4"
-		(at 60.96 92.71 0)
+	(label "OPT8_IN"
+		(at 173.99 142.24 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "27021bde-fa2a-4e70-b28d-813807c4bb5e")
+	)
+	(label "DO_7_R"
+		(at 154.94 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dfbd77c-d359-4d63-ad27-dc1bfad533a9")
+	)
+	(label "Q3_G"
+		(at 191.77 73.66 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e9e318c-6887-4c44-aef2-002267152222")
+	)
+	(label "OPT3_IN"
+		(at 173.99 66.04 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b7b686a-5627-4e44-9eb4-72568160f313")
+	)
+	(label "DO_5_R"
+		(at 132.08 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4850b429-60b2-4c44-a553-f4dd010383e8")
+	)
+	(label "Q5_G"
+		(at 191.77 104.14 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf7e863-4e5e-41dd-8754-d3b3c5b6e1d6")
+	)
+	(label "OPT7_IN"
+		(at 173.99 127 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d8d7260-dde5-408b-b94e-83bb56378853")
+	)
+	(label "DO_6_R"
+		(at 143.51 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "54d12d59-7200-41d8-ac4a-d5ad8c81c960")
+	)
+	(label "OPT2_IN"
+		(at 173.99 50.8 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a388e98-7d59-4c62-8b04-6b4d5daa1f7d")
+	)
+	(label "DO_0_R"
+		(at 74.93 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e44df93-8a54-4824-a7c7-dcfde9fe5626")
+	)
+	(label "Q6_G"
+		(at 191.77 119.38 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "66751718-0811-45c2-ad2d-fe68eb3585e3")
+	)
+	(label "Q2_G"
+		(at 191.77 58.42 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af3d709-5e9c-4035-b333-7cdc9373542d")
+	)
+	(label "OPT7_R"
+		(at 173.99 121.92 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c464148-e88f-4ae4-952f-ae51d74e0dbd")
+	)
+	(label "DO_3_R"
+		(at 109.22 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6db2921c-40bc-4963-95eb-e9f30f12c2eb")
+	)
+	(label "OPT6_R"
+		(at 173.99 106.68 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "715d7d75-2839-462c-b3dc-5a42e143c26a")
+	)
+	(label "OPT2_R"
+		(at 173.99 45.72 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "92d124cd-230f-4215-b967-84364739e6f8")
+	)
+	(label "OPT6_IN"
+		(at 173.99 111.76 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9acf825b-dc6a-4c63-9491-66c9e86fcd81")
+	)
+	(label "Q8_G"
+		(at 191.77 149.86 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f686ed0-0bce-4c3e-9bfb-d0e7ce199531")
+	)
+	(label "OPT1_IN"
+		(at 173.99 35.56 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b916c276-78ba-4209-98f8-b0a4158f5f31")
+	)
+	(label "Q7_G"
+		(at 191.77 134.62 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d00ffcd5-d1d3-46ea-b1b2-f0f700769341")
+	)
+	(label "OPT1_R"
+		(at 173.99 30.48 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d374cc02-932f-4006-9bf8-48f48b69ee80")
+	)
+	(label "DO_1_R"
+		(at 86.36 152.4 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d46b4a33-87df-410f-9be8-795efef4a420")
+	)
+	(label "OPT5_IN"
+		(at 173.99 96.52 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "d806a47e-fbe1-4317-9882-a5d989700de0")
+	)
+	(label "OPT5_R"
+		(at 173.99 91.44 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "db44f104-f6e9-4278-a11e-2472be2edadc")
+	)
+	(label "OPT4_R"
+		(at 173.99 76.2 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f213ceb0-f21e-479b-8f91-3a3d79e156d4")
+	)
+	(label "OPT4_IN"
+		(at 173.99 81.28 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff732741-d776-4421-a667-f714d6bd9b31")
+	)
+	(global_label "DI_OUT5"
+		(shape input)
+		(at 72.39 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "e7f92961-f587-4e16-96bf-5e96694a6aa6")
+		(uuid "05214af4-7fba-4d8a-b56e-47c2c2bf8140")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DI_OUT0"
-		(at 60.96 31.75 0)
+	(global_label "DO_4"
+		(shape input)
+		(at 224.79 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f55ee820-bfce-4229-9568-caa555002caf")
+		(uuid "448c7cb5-13b0-4cab-83f5-9c4bd36b86ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT0"
+		(shape input)
+		(at 72.39 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "604b4d45-6c1d-47fe-9e00-cc1b9443b523")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT6"
+		(shape input)
+		(at 72.39 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6acb7c7f-7e33-4682-98e2-7ef8ce934d9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_3"
+		(shape input)
+		(at 224.79 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "881209e6-edc1-4873-a46d-0b5f72b76573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_7"
+		(shape input)
+		(at 224.79 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9deb5f03-711d-4736-85af-39ca8e9d1276")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT1"
+		(shape input)
+		(at 72.39 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3bef991-5a0f-4e89-8984-f410e3959289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_6"
+		(shape input)
+		(at 224.79 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4d542cc-0b74-4f22-86da-0a3f10987f2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_2"
+		(shape input)
+		(at 224.79 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5829f0d-e9e7-486b-9a4f-128c4efc2a4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT3"
+		(shape input)
+		(at 72.39 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf904674-02e4-4292-8658-3ae7685ea958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT4"
+		(shape input)
+		(at 72.39 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2059f08-0ba5-415f-b50f-4ec342c1cc08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_0"
+		(shape input)
+		(at 224.79 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9a59ca1-5e84-470d-ad1e-0602fdbe66b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT7"
+		(shape input)
+		(at 72.39 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "decd661a-d8af-4177-b473-4cb1de81acbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DI_OUT2"
+		(shape input)
+		(at 72.39 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5a340d3-fbc9-43ef-b900-672d28b29501")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_5"
+		(shape input)
+		(at 224.79 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5eb6ca6-042a-4803-bc49-f6660f2ac311")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DO_1"
+		(shape input)
+		(at 224.79 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6a95451-74b0-45de-be59-e0d2ad59bab9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5528 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 72.39 143.51 0)
+		(at 74.93 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2970,8 +3823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0af177c5-9814-42d6-b499-24aecd60e53e")
-		(property "Reference" "R41"
-			(at 74.93 142.2399 0)
+		(property "Reference" "R1"
+			(at 77.47 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2980,7 +3833,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 74.93 144.7799 0)
+			(at 77.47 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.39 143.51 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3851,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 72.39 143.51 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3860,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 72.39 143.51 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3869,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 72.39 143.51 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3878,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 72.39 143.51 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3895,148 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R41")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 184.15 25.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0da1509f-238e-4e34-98db-8fc21177c94a")
+		(property "Reference" "#FLG02"
+			(at 186.055 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_FLAG"
+			(at 187.96 25.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac36f37e-97c2-4a29-bc14-a6556b83a180")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13084e54-fc83-455d-bebd-09400fa66f77")
+		(property "Reference" "U8"
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e316de48-d174-4e9e-af7a-266410981a9e")
+		)
+		(pin "3"
+			(uuid "86381df1-964f-49b1-a868-ed23769dd204")
+		)
+		(pin "1"
+			(uuid "a52f7acc-edd3-4a70-9b41-eb46bedfbb63")
+		)
+		(pin "4"
+			(uuid "f452ba5b-7384-4ead-a9f1-254cf48dc04b")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3050,7 +4044,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 80.01 90)
+		(at 191.77 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3058,8 +4052,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b8dbba-90fb-4e8f-8dc5-fb2afd4734bd")
-		(property "Reference" "Q12"
-			(at 180.34 71.12 90)
+		(property "Reference" "Q4"
+			(at 191.77 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +4061,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 73.66 90)
+			(at 191.77 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +4078,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 80.01 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +4087,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 80.01 0)
+			(at 191.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +4096,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 80.01 0)
+			(at 208.915 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +4105,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 80.01 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +4114,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 80.01 0)
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +4123,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 80.01 90)
+			(at 191.77 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +4132,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 80.01 90)
+			(at 191.77 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +4152,271 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q12")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 109.22 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "196302dc-6e65-42c3-a11d-3406b8593eb5")
+		(property "Reference" "D4"
+			(at 111.76 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO3"
+			(at 111.76 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 109.22 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13408f7-d363-4ff3-9685-df0c6bf22b10")
+		)
+		(pin "2"
+			(uuid "dc24c5a3-e296-44ae-9125-5076287251ac")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 143.51 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4c1be5-8c37-42aa-9a75-8764b50e73ee")
+		(property "Reference" "D7"
+			(at 146.05 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO6"
+			(at 146.05 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 143.51 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa8c965a-7db3-45cd-b705-4c9a7d2893db")
+		)
+		(pin "2"
+			(uuid "02d6708b-6ffa-4806-a3c4-a707d5b05aa3")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 154.94 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ec98c1-3d75-47c3-9495-023a2c3dfd7c")
+		(property "Reference" "D8"
+			(at 157.48 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO7"
+			(at 157.48 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 154.94 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "497a0edc-0501-44e5-8876-9e4816ace8d9")
+		)
+		(pin "2"
+			(uuid "ca0786a7-5abe-4569-ac95-08f2719c576d")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3166,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 125.73 90)
+		(at 191.77 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3174,8 +4432,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b31258-40aa-430e-b73f-781bc2c4ff9f")
-		(property "Reference" "Q15"
-			(at 180.34 116.84 90)
+		(property "Reference" "Q7"
+			(at 191.77 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +4441,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 119.38 90)
+			(at 191.77 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +4449,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 125.73 0)
+			(at 204.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4467,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 125.73 0)
+			(at 191.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4476,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 125.73 0)
+			(at 208.915 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4485,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 125.73 0)
+			(at 210.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +4494,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 125.73 0)
+			(at 207.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +4503,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 125.73 90)
+			(at 191.77 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +4512,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 125.73 90)
+			(at 191.77 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,61 +4532,42 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q15")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 135.89 0)
-		(mirror y)
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 156.21 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24066942-7a64-4eff-a1a3-678b4d8744be")
-		(property "Reference" "U16"
-			(at 154.94 127 0)
+		(uuid "27cb3209-99ca-4107-b09d-732c3ccd32aa")
+		(property "Reference" "#FLG04"
+			(at 67.945 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "CNY17-3"
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 135.89 0)
+		(property "Value" "GNDREF_FLAG"
+			(at 66.04 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 135.89 0)
+		(property "Footprint" ""
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,8 +4575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 135.89 0)
+		(property "Datasheet" "~"
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,8 +4584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 135.89 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,27 +4594,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8b34c54-1b4c-4052-ac38-9291a2f1eb8e")
-		)
-		(pin "6"
-			(uuid "cc6172ab-dca3-41af-810e-1bb20142df57")
-		)
-		(pin "2"
-			(uuid "05a37094-8af3-488c-8e18-52f1ce9bec16")
-		)
-		(pin "5"
-			(uuid "544c79ce-3ef9-4062-b225-b28935780836")
-		)
-		(pin "4"
-			(uuid "d1a09c3a-9383-4350-a2ce-1d6f08e4c789")
-		)
-		(pin "3"
-			(uuid "7135617a-3227-4a27-883a-cd89f65e3237")
+			(uuid "4254952f-349b-4187-9192-32ed78740ac5")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U16")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -3383,7 +4607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 102.87 143.51 0)
+		(at 109.22 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3391,8 +4615,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f579698-15cc-4776-a679-fcecf7a5bf3a")
-		(property "Reference" "R44"
-			(at 105.41 142.2399 0)
+		(property "Reference" "R4"
+			(at 111.76 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3401,7 +4625,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 105.41 144.7799 0)
+			(at 111.76 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +4634,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 102.87 143.51 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +4643,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 102.87 143.51 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +4652,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 102.87 143.51 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +4661,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 102.87 143.51 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +4670,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 102.87 143.51 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,108 +4687,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3019097c-0617-4ad2-a66e-c147769c4457")
-		(property "Reference" "U11"
-			(at 154.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-3"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d70c9e2-4f0b-45b1-9560-9dec4e1f7791")
-		)
-		(pin "6"
-			(uuid "1df8fd26-68b9-4e3f-a37b-7e9b113d6acb")
-		)
-		(pin "2"
-			(uuid "c0dcef63-766c-48ef-a62e-ee7f095a50f1")
-		)
-		(pin "5"
-			(uuid "ae2535f5-abbb-4747-9a08-82e3e6ab679e")
-		)
-		(pin "4"
-			(uuid "6d3f63c0-f25a-4f02-9858-8276905739d9")
-		)
-		(pin "3"
-			(uuid "2b050754-a3c9-4d27-bfe7-3a950724657e")
-		)
-		(instances
-			(project "digital_output"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3572,7 +4695,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 49.53 90)
+		(at 191.77 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3580,8 +4703,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30bc9097-8d1b-433e-b4d7-8c130dc93665")
-		(property "Reference" "Q10"
-			(at 180.34 40.64 90)
+		(property "Reference" "Q2"
+			(at 191.77 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +4712,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 43.18 90)
+			(at 191.77 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +4720,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 44.45 0)
+			(at 189.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +4729,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 49.53 0)
+			(at 204.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4738,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 49.53 0)
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +4747,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 49.53 0)
+			(at 208.915 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4756,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 49.53 0)
+			(at 210.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +4765,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 49.53 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +4774,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 49.53 90)
+			(at 191.77 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +4783,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 49.53 90)
+			(at 191.77 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +4803,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q10")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3688,7 +4811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 143.51 143.51 0)
+		(at 154.94 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3696,8 +4819,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e8e9dd-f70e-4dd3-b90d-1949be274844")
-		(property "Reference" "R48"
-			(at 146.05 142.2399 0)
+		(property "Reference" "R8"
+			(at 157.48 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3706,7 +4829,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 146.05 144.7799 0)
+			(at 157.48 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +4838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 143.51 143.51 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 143.51 143.51 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4856,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 143.51 143.51 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4865,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 143.51 143.51 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4874,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 143.51 143.51 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,108 +4891,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 29.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43184ee7-88b1-4644-9f8b-9666cbb1c5e2")
-		(property "Reference" "U9"
-			(at 154.94 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-3"
-			(at 154.94 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d686f22e-405a-49cc-ad04-e4fdf82bdaf4")
-		)
-		(pin "6"
-			(uuid "a91c77a8-a373-4698-8e1b-e4a3d8d69fb9")
-		)
-		(pin "2"
-			(uuid "4ec4bf53-b733-46cd-89bf-f99e2fc59c61")
-		)
-		(pin "5"
-			(uuid "859f24c2-0a94-43a5-aa4a-dd0371ea5867")
-		)
-		(pin "4"
-			(uuid "a30566c2-248a-43e0-b12f-ac965f3d6a89")
-		)
-		(pin "3"
-			(uuid "86595c59-aa61-43cd-8f36-e09d46e0ca19")
-		)
-		(instances
-			(project "digital_output"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3877,7 +4899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 69.85 90)
+		(at 196.85 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3885,8 +4907,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49b87ffa-92e4-4e01-b4fb-8e2d543bf1c1")
-		(property "Reference" "R59"
-			(at 185.42 64.77 90)
+		(property "Reference" "R19"
+			(at 196.85 68.58 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3894,7 +4916,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 67.31 90)
+			(at 196.85 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4924,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 69.85 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +4933,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 69.85 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4942,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 69.85 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4951,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 69.85 90)
+			(at 196.85 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4960,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 69.85 90)
+			(at 196.85 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +4977,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R59")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3963,7 +4985,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 87.63 90)
+		(at 179.07 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3971,8 +4993,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50148ea1-51e3-4c02-b05b-ee9857930083")
-		(property "Reference" "R53"
-			(at 167.64 82.55 90)
+		(property "Reference" "R13"
+			(at 179.07 86.36 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3980,7 +5002,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 85.09 90)
+			(at 179.07 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +5010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 87.63 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 87.63 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 87.63 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +5037,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 87.63 90)
+			(at 179.07 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +5046,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 87.63 90)
+			(at 179.07 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +5063,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R53")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4049,7 +5071,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 143.51 0)
+		(at 132.08 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4057,8 +5079,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506366cf-9cf0-4294-8028-bdfbcf9d32b7")
-		(property "Reference" "R46"
-			(at 125.73 142.2399 0)
+		(property "Reference" "R6"
+			(at 134.62 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4067,7 +5089,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 125.73 144.7799 0)
+			(at 134.62 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +5098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 143.51 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +5107,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 123.19 143.51 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +5116,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 123.19 143.51 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +5125,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 123.19 143.51 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +5134,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 123.19 143.51 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +5151,95 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R46")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 120.65 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52bc896a-049e-4206-bec6-ea5afd87d129")
+		(property "Reference" "D5"
+			(at 123.19 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO4"
+			(at 123.19 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d23e932-7b5a-4092-897b-233f257e6dbc")
+		)
+		(pin "2"
+			(uuid "1b6bacf6-a399-4050-89ce-f75cf1d7e859")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4137,7 +5247,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 133.35 90)
+		(at 179.07 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4145,8 +5255,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5378e15a-b265-44b1-8b6b-9c09da5150d8")
-		(property "Reference" "R56"
-			(at 167.64 128.27 90)
+		(property "Reference" "R16"
+			(at 179.07 132.08 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4154,7 +5264,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 130.81 90)
+			(at 179.07 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +5272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 133.35 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +5281,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 133.35 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +5290,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 133.35 0)
+			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +5299,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 133.35 90)
+			(at 179.07 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +5308,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 133.35 90)
+			(at 179.07 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +5325,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R56")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4223,7 +5333,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 26.67 90)
+		(at 179.07 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4231,8 +5341,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5443c53a-da87-45c7-a038-6cb2bdee9a48")
-		(property "Reference" "R49"
-			(at 167.64 21.59 90)
+		(property "Reference" "R9"
+			(at 179.07 25.4 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4240,7 +5350,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 24.13 90)
+			(at 179.07 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +5358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 26.67 0)
+			(at 179.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +5367,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 26.67 0)
+			(at 179.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +5376,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 26.67 0)
+			(at 179.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +5385,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 26.67 90)
+			(at 179.07 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +5394,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 26.67 90)
+			(at 179.07 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +5411,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R49")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4309,7 +5419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 39.37 90)
+		(at 196.85 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4317,8 +5427,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b78152-4d73-4557-a538-d1b30e8d5160")
-		(property "Reference" "R57"
-			(at 185.42 34.29 90)
+		(property "Reference" "R17"
+			(at 196.85 38.1 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4326,7 +5436,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 36.83 90)
+			(at 196.85 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +5444,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 39.37 0)
+			(at 196.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +5453,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 39.37 0)
+			(at 196.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +5462,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 39.37 0)
+			(at 196.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +5471,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 39.37 90)
+			(at 196.85 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +5480,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 39.37 90)
+			(at 196.85 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +5497,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R57")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4395,7 +5505,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 172.72 24.13 0)
+		(at 184.15 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4403,8 +5513,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8da505-6be5-4f1a-881c-131cdb477dcb")
-		(property "Reference" "#PWR014"
-			(at 172.72 27.94 0)
+		(property "Reference" "#PWR03"
+			(at 184.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +5523,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 19.05 0)
+			(at 184.15 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +5531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 24.13 0)
+			(at 184.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +5540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 24.13 0)
+			(at 184.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +5549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 172.72 24.13 0)
+			(at 184.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +5563,81 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "#PWR014")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6041a949-d44e-4d5a-80c5-426e4c513f71")
+		(property "Reference" "U6"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78deff1f-4ee3-45da-a3e5-d1aae5b9d0d0")
+		)
+		(pin "3"
+			(uuid "b9d5f786-43ba-4529-8537-7c630ad1134e")
+		)
+		(pin "1"
+			(uuid "ab32faf6-a60f-4e51-98e7-53bfc4f0e5f0")
+		)
+		(pin "4"
+			(uuid "8050d0ed-35c4-4b74-b69e-0cfaa25a7c1f")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4461,7 +5645,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 102.87 90)
+		(at 179.07 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4469,8 +5653,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635b8d88-ab02-41dd-b09e-163710b60b96")
-		(property "Reference" "R54"
-			(at 167.64 97.79 90)
+		(property "Reference" "R14"
+			(at 179.07 101.6 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4478,7 +5662,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 100.33 90)
+			(at 179.07 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +5670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 102.87 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +5679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 102.87 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +5688,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 102.87 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +5697,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 102.87 90)
+			(at 179.07 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +5706,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 102.87 90)
+			(at 179.07 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,61 +5723,42 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R54")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 120.65 0)
-		(mirror y)
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 25.4 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e3bd221-fbb9-4b6c-936d-97ec82da99f7")
-		(property "Reference" "U15"
-			(at 154.94 111.76 0)
+		(uuid "6365b831-0541-4720-a736-5c4c960102c7")
+		(property "Reference" "#FLG01"
+			(at 153.035 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "CNY17-3"
-			(at 154.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 120.65 0)
+		(property "Value" "24V_FLAG"
+			(at 151.13 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 120.65 0)
+		(property "Footprint" ""
+			(at 154.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,8 +5766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 120.65 0)
+		(property "Datasheet" "~"
+			(at 154.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,8 +5775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 120.65 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 154.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,27 +5785,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "24b74e10-0e2d-4683-a52c-269e86a6f09a")
-		)
-		(pin "6"
-			(uuid "a61b5128-462c-49e8-ba4d-b742f690bce8")
-		)
-		(pin "2"
-			(uuid "c8c29088-4d5f-4cda-81a4-4b485c5ce097")
-		)
-		(pin "5"
-			(uuid "559b835e-5654-4691-8855-dcb25038d271")
-		)
-		(pin "4"
-			(uuid "a21eecc7-8384-48ce-aba3-b9b4284e0400")
-		)
-		(pin "3"
-			(uuid "bab1f232-c7ce-44b1-9cbd-466ccae04f73")
+			(uuid "f712c01c-0687-46f4-9556-7a6b7a6b2990")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U15")
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8d7c7d-7f7b-433a-a2ec-bbc518cdfc1a")
+		(property "Reference" "U3"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b199a94f-a290-4bbb-aca5-678b4935e576")
+		)
+		(pin "3"
+			(uuid "75f5e3f0-4ab8-485a-9f15-9920ab4a752c")
+		)
+		(pin "1"
+			(uuid "9abfb86a-669f-4683-a91f-2882c362fdfb")
+		)
+		(pin "4"
+			(uuid "54af7e6a-daa5-4efe-930c-fdff473e7975")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4648,7 +5872,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 110.49 90)
+		(at 191.77 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4656,8 +5880,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7303498e-3e2f-425b-94d1-e96f081843ee")
-		(property "Reference" "Q14"
-			(at 180.34 101.6 90)
+		(property "Reference" "Q6"
+			(at 191.77 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +5889,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 104.14 90)
+			(at 191.77 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +5897,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 105.41 0)
+			(at 189.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +5906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 110.49 0)
+			(at 204.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5915,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 110.49 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +5924,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 110.49 0)
+			(at 208.915 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5933,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 110.49 0)
+			(at 210.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +5942,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 110.49 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +5951,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 110.49 90)
+			(at 191.77 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +5960,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 110.49 90)
+			(at 191.77 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,61 +5980,40 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q14")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 44.45 0)
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "740692e7-7b58-474e-8652-c45db73b476a")
-		(property "Reference" "U10"
-			(at 154.94 35.56 0)
+		(uuid "7318dad7-75e7-4d2e-9edf-0b16af54451a")
+		(property "Reference" "U7"
+			(at 166.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CNY17-3"
-			(at 154.94 38.1 0)
+		(property "Value" "VO615A-3"
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 44.45 0)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,8 +6021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 44.45 0)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,37 +6030,31 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 44.45 0)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7448e5de-be30-4532-867a-098529e7ac0d")
-		)
-		(pin "6"
-			(uuid "0e96a586-ce3e-4176-bffc-4ee7c236c652")
 		)
 		(pin "2"
-			(uuid "2b2eb18f-92c5-4f9b-a000-dbe56524bdb9")
-		)
-		(pin "5"
-			(uuid "eeacd274-e462-4acf-a320-ba6ba79d07c1")
-		)
-		(pin "4"
-			(uuid "7efad539-dfd3-4f52-8300-9390fdb8ce20")
+			(uuid "7fcf5c79-735c-4df9-9995-0073df761c83")
 		)
 		(pin "3"
-			(uuid "da5f4ffd-bd08-4219-a5e8-806073be179e")
+			(uuid "b486b974-cfaf-4c33-bc28-8befc5f0e847")
+		)
+		(pin "1"
+			(uuid "5ffa408a-d1fc-49a7-85d1-dd11fe0ad62b")
+		)
+		(pin "4"
+			(uuid "e7bb13b1-5d9a-4f9c-b5f4-7189367177aa")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4865,7 +6062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 57.15 90)
+		(at 179.07 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4873,8 +6070,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c68dc9d-d5e2-4eca-9759-ef541f199d18")
-		(property "Reference" "R51"
-			(at 167.64 52.07 90)
+		(property "Reference" "R11"
+			(at 179.07 55.88 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4882,7 +6079,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 54.61 90)
+			(at 179.07 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +6087,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 57.15 0)
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +6096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 57.15 0)
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +6105,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 57.15 0)
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +6114,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 57.15 90)
+			(at 179.07 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +6123,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 57.15 90)
+			(at 179.07 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +6140,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R51")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4951,7 +6148,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 95.25 90)
+		(at 191.77 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4959,8 +6156,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cc5b954-6022-4468-b2b4-ab31f47898b6")
-		(property "Reference" "Q13"
-			(at 180.34 86.36 90)
+		(property "Reference" "Q5"
+			(at 191.77 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +6165,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 88.9 90)
+			(at 191.77 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +6173,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 90.17 0)
+			(at 189.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +6182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 95.25 0)
+			(at 204.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +6191,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 95.25 0)
+			(at 191.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +6200,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 95.25 0)
+			(at 208.915 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +6209,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 95.25 0)
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +6218,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 95.25 0)
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +6227,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 95.25 90)
+			(at 191.77 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +6236,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 95.25 90)
+			(at 191.77 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +6256,74 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q13")
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 203.2 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f54d941-8060-4d76-a0eb-bbec30f9911c")
+		(property "Reference" "#FLG03"
+			(at 205.105 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_FLAG"
+			(at 207.01 152.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc832d7d-6059-4877-88bd-dd17a5624e66")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5067,7 +6331,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 54.61 90)
+		(at 196.85 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5075,8 +6339,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a263ea-05fb-47b6-b7d0-d707ca31d006")
-		(property "Reference" "R58"
-			(at 185.42 49.53 90)
+		(property "Reference" "R18"
+			(at 196.85 53.34 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5084,7 +6348,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 52.07 90)
+			(at 196.85 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +6356,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 54.61 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +6365,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 54.61 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +6374,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 54.61 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +6383,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 54.61 90)
+			(at 196.85 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +6392,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 54.61 90)
+			(at 196.85 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +6409,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R58")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5153,7 +6417,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 72.39 90)
+		(at 179.07 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5161,8 +6425,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af11ef6-7725-4d15-b91e-f00defd28622")
-		(property "Reference" "R52"
-			(at 167.64 67.31 90)
+		(property "Reference" "R12"
+			(at 179.07 71.12 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5170,7 +6434,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 69.85 90)
+			(at 179.07 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 72.39 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +6451,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 72.39 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +6460,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 72.39 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +6469,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 72.39 90)
+			(at 179.07 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +6478,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 72.39 90)
+			(at 179.07 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,61 +6495,24 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R52")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 74.93 0)
-		(mirror y)
+		(lib_id "power:GNDREF")
+		(at 68.58 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90a2ec51-9084-48f5-9064-87410489a37d")
-		(property "Reference" "U12"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-3"
-			(at 154.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 74.93 0)
+		(uuid "8ee650c7-48b1-41eb-b565-24c553e56c25")
+		(property "Reference" "#PWR01"
+			(at 62.23 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,8 +6520,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 74.93 0)
+		(property "Value" "GNDREF"
+			(at 64.77 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,8 +6538,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 74.93 0)
+		(property "Datasheet" ""
+			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 68.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,27 +6557,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b97a708-2fff-4d8e-ab16-08699a4328a6")
-		)
-		(pin "6"
-			(uuid "fc46b195-9c88-4d7e-8e25-8cc35bdaf4cb")
-		)
-		(pin "2"
-			(uuid "e2ba7fad-a4f6-489f-9c18-e5735d39831c")
-		)
-		(pin "5"
-			(uuid "1eb51f95-126a-4db2-89d5-173b534efb9c")
-		)
-		(pin "4"
-			(uuid "028961f0-0c89-4747-bce6-16209ce48def")
-		)
-		(pin "3"
-			(uuid "f4cdae29-8866-4f47-86c8-6f3f62d52fb8")
+			(uuid "252a860d-d22f-4d1e-8fcd-98dc5024a7d1")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U12")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5340,7 +6570,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 100.33 90)
+		(at 196.85 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5348,8 +6578,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91deabf7-497c-4be7-9477-6757e5c21bfb")
-		(property "Reference" "R61"
-			(at 185.42 95.25 90)
+		(property "Reference" "R21"
+			(at 196.85 99.06 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5357,7 +6587,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 97.79 90)
+			(at 196.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +6595,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 100.33 0)
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +6604,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 100.33 0)
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +6613,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 100.33 0)
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +6622,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 100.33 90)
+			(at 196.85 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +6631,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 100.33 90)
+			(at 196.85 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,24 +6648,40 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R61")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 143.51 151.13 0)
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ace9bfb-57b7-4d4d-8059-13a574ea1135")
-		(property "Reference" "#PWR013"
-			(at 143.51 157.48 0)
+		(uuid "9cd76a6c-4f95-4ada-89a2-1ac27428487a")
+		(property "Reference" "U1"
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,16 +6689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 143.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 151.13 0)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,8 +6698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 151.13 0)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,22 +6707,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "655c8ab9-5b2d-4b6e-ae85-25aecec9f2bc")
+		)
+		(pin "3"
+			(uuid "f48b359c-c6ef-4fbb-b7d9-090306f35fa0")
 		)
 		(pin "1"
-			(uuid "e4154fb1-cc6f-40a8-8c5d-3ff1f65bd6fa")
+			(uuid "ce181106-eba4-4a56-b475-1e4526697cec")
+		)
+		(pin "4"
+			(uuid "cca06d94-9627-4f0b-a4c1-92cd0ee06083")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "#PWR013")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d44279-bd64-426f-a9c4-23e2a2b27a63")
+		(property "Reference" "U2"
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2e54c3b-40bc-4ae3-80ad-03d9be39d659")
+		)
+		(pin "3"
+			(uuid "2bb4c85d-ce8a-43e3-99d5-97a720ad4492")
+		)
+		(pin "1"
+			(uuid "a914b83c-d192-4b66-ad9d-8277a4945313")
+		)
+		(pin "4"
+			(uuid "153278d9-3dfc-4a2b-9b30-c6252375c887")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5492,7 +6804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 130.81 90)
+		(at 196.85 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5500,8 +6812,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5260f65-ab1e-47d2-b7cf-75d519aae9e4")
-		(property "Reference" "R63"
-			(at 185.42 125.73 90)
+		(property "Reference" "R23"
+			(at 196.85 129.54 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5509,7 +6821,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 128.27 90)
+			(at 196.85 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +6829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 130.81 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +6838,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 130.81 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +6847,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 130.81 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +6856,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 130.81 90)
+			(at 196.85 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +6865,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 130.81 90)
+			(at 196.85 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +6882,81 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R63")
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9804a58-7939-4e44-b2be-6d5ae3257ece")
+		(property "Reference" "U5"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbf1c05a-a49c-43b9-9791-eaebdb4138d7")
+		)
+		(pin "3"
+			(uuid "9be1b9ae-ee41-4edf-9c13-589a0fb475c2")
+		)
+		(pin "1"
+			(uuid "d721a4e5-7a9e-4804-bba8-8904cff3eab2")
+		)
+		(pin "4"
+			(uuid "eccb1856-629f-4e10-9e9c-3648f9ee559b")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5578,7 +6964,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 143.51 26.67 0)
+		(at 154.94 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5586,8 +6972,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2d2da6c-4d3d-4623-b513-873c8c1491f7")
-		(property "Reference" "#PWR012"
-			(at 143.51 30.48 0)
+		(property "Reference" "#PWR02"
+			(at 154.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +6982,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 143.51 21.59 0)
+			(at 154.94 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +6990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 26.67 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +6999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 26.67 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +7008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 143.51 26.67 0)
+			(at 154.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +7022,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5644,7 +7030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 118.11 90)
+		(at 179.07 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5652,8 +7038,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bb4173-d6f7-462a-8703-68a1f2eff687")
-		(property "Reference" "R55"
-			(at 167.64 113.03 90)
+		(property "Reference" "R15"
+			(at 179.07 116.84 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5661,7 +7047,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 115.57 90)
+			(at 179.07 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +7055,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +7064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +7073,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +7082,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 118.11 90)
+			(at 179.07 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +7091,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 118.11 90)
+			(at 179.07 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +7108,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R55")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5730,7 +7116,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 82.55 143.51 0)
+		(at 86.36 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,8 +7124,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba76591d-5178-453f-8a52-12f9f0aaacde")
-		(property "Reference" "R42"
-			(at 85.09 142.2399 0)
+		(property "Reference" "R2"
+			(at 88.9 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5748,7 +7134,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 85.09 144.7799 0)
+			(at 88.9 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +7143,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.55 143.51 0)
+			(at 86.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +7152,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 82.55 143.51 0)
+			(at 86.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +7161,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 82.55 143.51 0)
+			(at 86.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +7170,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 82.55 143.51 0)
+			(at 86.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +7179,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 82.55 143.51 0)
+			(at 86.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,61 +7196,116 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R42")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 105.41 0)
+		(lib_id "Isolator:VO615A-3")
+		(at 166.37 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "c30def76-d858-4d88-9798-ca9a58127dfc")
+		(property "Reference" "U4"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VO615A-3"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81753/vo615a.pdf"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "744517fc-2dbc-49ab-a8eb-0c45501e3e13")
+		)
+		(pin "3"
+			(uuid "0da1a922-e6dc-43c1-bfe9-659c5c5952ae")
+		)
+		(pin "1"
+			(uuid "c33d70fb-deb3-49ff-b8dc-1c7521bc2bbf")
+		)
+		(pin "4"
+			(uuid "b0d7e3e8-e5a1-425b-859f-f59f9a8b3257")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 97.79 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ccfdea82-cc6e-446a-a675-01d9eb5760e6")
-		(property "Reference" "U14"
-			(at 154.94 96.52 0)
+		(uuid "cad2b717-3be3-4e04-a3d5-e50d49ca1eb7")
+		(property "Reference" "D3"
+			(at 100.33 153.6064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "CNY17-3"
-			(at 154.94 99.06 0)
+		(property "Value" "LD_DO2"
+			(at 100.33 156.1464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 105.41 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,8 +7313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 105.41 0)
+		(property "Datasheet" "~"
+			(at 97.79 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,8 +7322,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 105.41 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,27 +7350,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "039cb76c-12ba-4c42-bbf5-505b968958b3")
-		)
-		(pin "6"
-			(uuid "ea898a51-3ea0-4670-8ca0-6bf88e58260f")
+			(uuid "27a30419-95cd-4fbf-a894-18122d25f611")
 		)
 		(pin "2"
-			(uuid "1e331be8-b118-4bc3-9bf9-0a72b959c1bd")
-		)
-		(pin "5"
-			(uuid "17c9d8c8-e06e-43be-840e-a9f39a667630")
-		)
-		(pin "4"
-			(uuid "0fbbcf37-1fd7-4b51-86ca-aadc0384583c")
-		)
-		(pin "3"
-			(uuid "84a517cc-6415-4301-80c1-43d62f436e57")
+			(uuid "c963cb2d-09c5-44aa-9d92-7687b9e5963a")
 		)
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U14")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5919,7 +7366,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 41.91 90)
+		(at 179.07 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5927,8 +7374,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d02ee00a-cdf6-499d-8a75-bfe82cc3ca65")
-		(property "Reference" "R50"
-			(at 167.64 36.83 90)
+		(property "Reference" "R10"
+			(at 179.07 40.64 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5936,7 +7383,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 167.64 39.37 90)
+			(at 179.07 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +7391,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 167.64 41.91 0)
+			(at 179.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 167.64 41.91 0)
+			(at 179.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +7409,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 41.91 0)
+			(at 179.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +7418,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 167.64 41.91 90)
+			(at 179.07 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +7427,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 167.64 41.91 90)
+			(at 179.07 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +7444,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R50")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6005,7 +7452,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 146.05 90)
+		(at 196.85 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6013,8 +7460,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d28f9abe-bbf6-4536-834a-a58acdd5831f")
-		(property "Reference" "R64"
-			(at 185.42 140.97 90)
+		(property "Reference" "R24"
+			(at 196.85 144.78 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6022,7 +7469,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 143.51 90)
+			(at 196.85 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +7477,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 146.05 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +7486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 146.05 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +7495,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 146.05 0)
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +7504,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 146.05 90)
+			(at 196.85 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +7513,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 146.05 90)
+			(at 196.85 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +7530,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R64")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6091,7 +7538,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 85.09 90)
+		(at 196.85 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6099,8 +7546,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2f2bd3c-0975-4563-aac7-7bd639653d69")
-		(property "Reference" "R60"
-			(at 185.42 80.01 90)
+		(property "Reference" "R20"
+			(at 196.85 83.82 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6108,7 +7555,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 82.55 90)
+			(at 196.85 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 85.09 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +7572,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 85.09 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +7581,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 85.09 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +7590,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 85.09 90)
+			(at 196.85 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +7599,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 85.09 90)
+			(at 196.85 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +7616,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R60")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6177,7 +7624,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 92.71 143.51 0)
+		(at 97.79 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6185,8 +7632,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c81eab-287e-4695-8efd-d179a53bf694")
-		(property "Reference" "R43"
-			(at 95.25 142.2399 0)
+		(property "Reference" "R3"
+			(at 100.33 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6195,7 +7642,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 95.25 144.7799 0)
+			(at 100.33 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +7651,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.71 143.51 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +7660,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 92.71 143.51 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +7669,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 92.71 143.51 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +7678,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 92.71 143.51 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +7687,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 92.71 143.51 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +7704,95 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R43")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 74.93 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53b9f0b-9fcf-4a53-bd9a-3d28b9442e6c")
+		(property "Reference" "D1"
+			(at 77.47 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO0"
+			(at 77.47 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 74.93 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0563b254-1419-4e9c-b0a4-20aa63b07049")
+		)
+		(pin "2"
+			(uuid "6657698a-cb68-4135-8625-ece4447650e0")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6265,7 +7800,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 115.57 90)
+		(at 196.85 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6273,8 +7808,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4092ee-f568-4a52-8feb-f9e07c6779cb")
-		(property "Reference" "R62"
-			(at 185.42 110.49 90)
+		(property "Reference" "R22"
+			(at 196.85 114.3 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6282,7 +7817,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 113.03 90)
+			(at 196.85 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +7825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 115.57 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +7834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 185.42 115.57 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +7843,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 115.57 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +7852,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW06031K00FKED"
-			(at 185.42 115.57 90)
+			(at 196.85 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +7861,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW06031K00FKED?qs=sGAEpiMZZMtlubZbdhIBIKbhzOdzan%2FGTch9K0lp5pQ%3D"
-			(at 185.42 115.57 90)
+			(at 196.85 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +7878,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R62")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6351,7 +7886,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 64.77 90)
+		(at 191.77 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6359,8 +7894,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb4b1ad-a33d-4e1b-b33f-4a0f62f8fec4")
-		(property "Reference" "Q11"
-			(at 180.34 55.88 90)
+		(property "Reference" "Q3"
+			(at 191.77 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +7903,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 58.42 90)
+			(at 191.77 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 59.69 0)
+			(at 189.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 64.77 0)
+			(at 204.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +7929,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 64.77 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +7938,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 64.77 0)
+			(at 208.915 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +7947,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 64.77 0)
+			(at 210.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +7956,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 64.77 0)
+			(at 207.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +7965,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 64.77 90)
+			(at 191.77 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +7974,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 64.77 90)
+			(at 191.77 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +7994,95 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q11")
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 86.36 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de73932b-4a6a-49f6-a168-2abed4faab0b")
+		(property "Reference" "D2"
+			(at 88.9 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO1"
+			(at 88.9 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 86.36 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a7f4591-8679-4877-bba4-c0c27b7c3a36")
+		)
+		(pin "2"
+			(uuid "23d3d2db-ae85-4505-8ea4-3aadc53237f4")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6467,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 140.97 90)
+		(at 191.77 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6475,8 +8098,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d9031c-b28c-494b-a9fb-0f1fa4c6931a")
-		(property "Reference" "Q16"
-			(at 180.34 132.08 90)
+		(property "Reference" "Q8"
+			(at 191.77 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +8107,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 134.62 90)
+			(at 191.77 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +8115,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 135.89 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 140.97 0)
+			(at 204.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +8133,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 140.97 0)
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +8142,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 140.97 0)
+			(at 208.915 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +8151,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 140.97 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +8160,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 140.97 0)
+			(at 207.01 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +8169,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 140.97 90)
+			(at 191.77 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +8178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 140.97 90)
+			(at 191.77 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +8198,95 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q16")
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 132.08 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e931f7a1-69be-4fe2-af13-0033530072a5")
+		(property "Reference" "D6"
+			(at 134.62 153.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LD_DO5"
+			(at 134.62 156.1464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 132.08 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75103209-30ce-4681-9e71-de84bd12c23b")
+		)
+		(pin "2"
+			(uuid "6636ce14-0c21-4c89-af6a-efad71df506a")
+		)
+		(instances
+			(project "digital_output"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6583,7 +8294,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 149.86 0)
+		(at 203.2 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6591,8 +8302,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe52125-856e-4b6c-8b54-021fdb37f4c9")
-		(property "Reference" "#PWR015"
-			(at 191.77 156.21 0)
+		(property "Reference" "#PWR04"
+			(at 203.2 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +8312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 154.94 0)
+			(at 203.2 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +8320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 149.86 0)
+			(at 203.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +8329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 149.86 0)
+			(at 203.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +8338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 149.86 0)
+			(at 203.2 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +8352,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6649,7 +8360,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 180.34 34.29 90)
+		(at 191.77 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6657,8 +8368,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee789a64-5ca9-47ed-9bcc-890e8b73edd2")
-		(property "Reference" "Q9"
-			(at 180.34 25.4 90)
+		(property "Reference" "Q1"
+			(at 191.77 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +8377,7 @@
 			)
 		)
 		(property "Value" "SI2347DS"
-			(at 180.34 27.94 90)
+			(at 191.77 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +8385,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 177.8 29.21 0)
+			(at 189.23 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +8394,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/62827/si2347ds.pdf"
-			(at 193.04 34.29 0)
+			(at 204.47 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +8403,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 180.34 34.29 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +8412,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 197.485 34.29 0)
+			(at 208.915 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +8421,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 199.39 34.29 0)
+			(at 210.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +8430,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 195.58 34.29 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +8439,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 180.34 34.29 90)
+			(at 191.77 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +8448,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D&srsltid=AfmBOopDsyWPnLpfU6YZIp8ipSPmLuQjMHACLLtnUO4hEaqjtMrrZX5w"
-			(at 180.34 34.29 90)
+			(at 191.77 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +8468,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "Q9")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6765,7 +8476,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 113.03 143.51 0)
+		(at 120.65 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6773,8 +8484,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f267eede-2047-49e1-87f4-e62607421bdc")
-		(property "Reference" "R45"
-			(at 115.57 142.2399 0)
+		(property "Reference" "R5"
+			(at 123.19 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6783,7 +8494,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 115.57 144.7799 0)
+			(at 123.19 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.03 143.51 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +8512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 113.03 143.51 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +8521,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 113.03 143.51 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +8530,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 113.03 143.51 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +8539,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 113.03 143.51 0)
+			(at 120.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +8556,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R45")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6853,7 +8564,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 143.51 0)
+		(at 143.51 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6861,8 +8572,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbcb14a2-1caf-448d-aada-b72a92528848")
-		(property "Reference" "R47"
-			(at 135.89 142.2399 0)
+		(property "Reference" "R7"
+			(at 146.05 146.0499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6871,7 +8582,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 135.89 144.7799 0)
+			(at 146.05 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +8591,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 133.35 143.51 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +8600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 133.35 143.51 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +8609,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 133.35 143.51 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +8618,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-47K-E3"
-			(at 133.35 143.51 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +8627,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay/CRCW060347K0FKEA?qs=yJVtgANCw03gcaACf6JZKA%3D%3D"
-			(at 133.35 143.51 0)
+			(at 143.51 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,108 +8644,7 @@
 		(instances
 			(project "digital_output"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:CNY17-3")
-		(at 154.94 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe88dcb3-f47c-4644-a4f5-0a7dba51e041")
-		(property "Reference" "U13"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CNY17-3"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLC_STM:SOP254P1016X400-6N"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "782-CNY17-3X009"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/CNY17-3X009?qs=%2Fjqivxn91cdKw04v7SCHwQ%3D%3D"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a4a4cc1-4d65-422e-b8fa-dd67e7d026ad")
-		)
-		(pin "6"
-			(uuid "6dcde852-e146-4c9a-a01a-c967f06dc621")
-		)
-		(pin "2"
-			(uuid "e6c48f89-d209-47ab-8e4a-c274086ca2c0")
-		)
-		(pin "5"
-			(uuid "72ee7daf-f3db-46c0-997a-f0f9c8cb1411")
-		)
-		(pin "4"
-			(uuid "76b804ac-60b0-4d67-ae15-8b0347bebd2b")
-		)
-		(pin "3"
-			(uuid "7af80ef8-a3e9-4f5f-b85f-1e5d928a5dee")
-		)
-		(instances
-			(project "digital_output"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ce547360-c984-43b6-8505-c519dac78a50"
-					(reference "U13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
