@@ -526,14 +526,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/can/CAN.N": [
-        "CAN"
-      ],
-      "/can/CAN.P": [
-        "CAN"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -649,7 +642,7 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

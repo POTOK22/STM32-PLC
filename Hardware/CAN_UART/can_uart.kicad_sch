@@ -25,7 +25,7 @@
 		(uuid "cec71073-0df9-405e-812b-e61d9091f6a5")
 	)
 	(sheet
-		(at 127 76.2)
+		(at 127 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41,7 +41,7 @@
 		)
 		(uuid "a360165a-183d-4bdc-94a4-2eec633f8bf2")
 		(property "Sheetname" "uart"
-			(at 127 75.4884 0)
+			(at 127 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Sheetfile" "uart.kicad_sch"
-			(at 127 114.8846 0)
+			(at 127 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +67,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 76.2)
+		(at 63.5 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -83,7 +83,7 @@
 		)
 		(uuid "bd4d43c5-0e61-45a4-a419-7121f84a0c1a")
 		(property "Sheetname" "can"
-			(at 63.5 75.4884 0)
+			(at 63.5 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +92,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 63.5 114.8846 0)
+			(at 63.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
+		(at 190.5 88.9)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -125,7 +125,7 @@
 		)
 		(uuid "ffdefcc3-66cd-4806-a553-5a2443aec936")
 		(property "Sheetname" "connectors"
-			(at 190.5 75.4884 0)
+			(at 190.5 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 190.5 114.8846 0)
+			(at 190.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

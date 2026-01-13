@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "PLC_STM")(type "KiCad")(uri "/home/grzegorz/Studia/DiplomaThesis/STM32-PLC/Hardware/footprints/PLC_STM.pretty")(options "")(descr ""))
+  (lib (name "PLC_STM")(type "KiCad")(uri "/home/grzegorz/Studia/DiplomaThesis/STM32-PLC/Hardware/Libraries/footprints/PLC_STM.pretty")(options "")(descr ""))
 )

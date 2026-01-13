@@ -2683,10 +2683,6 @@
 		(uuid "94f642b4-d567-4870-af47-65eacf39317e")
 	)
 	(no_connect
-		(at 217.17 78.74)
-		(uuid "958d592a-b783-4f1b-99dc-102d3a32bbbe")
-	)
-	(no_connect
 		(at 153.67 90.17)
 		(uuid "963b551a-c57d-4a30-aa4c-b0f42391015e")
 	)
@@ -2729,6 +2725,10 @@
 	(no_connect
 		(at 217.17 119.38)
 		(uuid "b554158e-7f87-4370-b1ca-b2483d6c8dfd")
+	)
+	(no_connect
+		(at 217.17 116.84)
+		(uuid "b5e79974-07cc-40b1-acb4-e6e3693b0c97")
 	)
 	(no_connect
 		(at 153.67 115.57)
@@ -2928,13 +2928,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 116.84) (xy 204.47 116.84)
+			(xy 217.17 78.74) (xy 204.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "958c376c-3129-438c-8e67-effad18e666e")
+		(uuid "ab5ee23c-7634-47b4-9601-940ce18c5fb6")
 	)
 	(wire
 		(pts
@@ -3694,7 +3694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 116.84 270)
+		(at 204.47 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3704,7 +3704,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b668410-a4d9-4a5a-b0f0-c2683ce5d123")
 		(property "Reference" "#PWR025"
-			(at 198.12 116.84 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 116.8399 90)
+			(at 200.66 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 116.84 0)
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 116.84 0)
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 116.84 0)
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
