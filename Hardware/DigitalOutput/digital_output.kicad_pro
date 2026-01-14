@@ -666,7 +666,7 @@
           "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

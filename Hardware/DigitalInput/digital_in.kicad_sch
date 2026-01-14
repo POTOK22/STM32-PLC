@@ -5216,6 +5216,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9f1fa1a-a696-45fa-b015-a021192c7140")
 		)
@@ -5718,6 +5736,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -7303,6 +7339,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "499030e6-ee6b-4cee-8880-706d00c6339f")
 		)
@@ -7891,6 +7945,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -8942,6 +9014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "655c8ab9-5b2d-4b6e-ae85-25aecec9f2bc")
 		)
@@ -9212,6 +9302,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -9838,6 +9946,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
 			(at 129.54 132.08 0)
 			(effects
 				(font
@@ -11170,6 +11296,24 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VO615A-3X007T"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/VO615A-3X007T?qs=zUyzn9J%252BIQpvF7TWq5It%252BA%3D%3D"
 			(at 129.54 71.12 0)
 			(effects
 				(font
